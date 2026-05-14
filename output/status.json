@@ -1,0 +1,288 @@
+{
+  "last_update": "2026-05-14T23:50:54.282333+00:00",
+  "total_channels": 47,
+  "channels": [
+    {
+      "id": "boomerang",
+      "name": "Boomerang",
+      "group": "Sky Kids",
+      "manifest_expires": "1778797555"
+    },
+    {
+      "id": "cartoonnetwork",
+      "name": "Cartoon Network",
+      "group": "Sky Kids",
+      "manifest_expires": "1778794734"
+    },
+    {
+      "id": "comedycentral",
+      "name": "Comedy Central",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778842841"
+    },
+    {
+      "id": "deakids",
+      "name": "DeAKids",
+      "group": "Sky Kids",
+      "manifest_expires": "1778842894"
+    },
+    {
+      "id": "historychannel",
+      "name": "History Channel",
+      "group": "Sky Documentari",
+      "manifest_expires": "1778842841"
+    },
+    {
+      "id": "mtv",
+      "name": "MTV",
+      "group": "Sky Musica",
+      "manifest_expires": "unknown"
+    },
+    {
+      "id": "nickelodeon",
+      "name": "Nickelodeon",
+      "group": "Sky Kids",
+      "manifest_expires": "1778842883"
+    },
+    {
+      "id": "skyadventure",
+      "name": "Sky Adventure",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778842883"
+    },
+    {
+      "id": "skyarte",
+      "name": "Sky Arte",
+      "group": "Sky Cultura",
+      "manifest_expires": "1778788414"
+    },
+    {
+      "id": "skyatlantic",
+      "name": "Sky Atlantic",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778842847"
+    },
+    {
+      "id": "skycinemaaction",
+      "name": "Sky Cinema Action",
+      "group": "Sky Cinema",
+      "manifest_expires": "1778842876"
+    },
+    {
+      "id": "skycinemacomedy",
+      "name": "Sky Cinema Comedy",
+      "group": "Sky Cinema",
+      "manifest_expires": "1778842850"
+    },
+    {
+      "id": "skycinemadrama",
+      "name": "Sky Cinema Drama",
+      "group": "Sky Cinema",
+      "manifest_expires": "1778842845"
+    },
+    {
+      "id": "skycinemafamily",
+      "name": "Sky Cinema Family",
+      "group": "Sky Cinema",
+      "manifest_expires": "1778842854"
+    },
+    {
+      "id": "skycinemaromance",
+      "name": "Sky Cinema Romance",
+      "group": "Sky Cinema",
+      "manifest_expires": "1778823012"
+    },
+    {
+      "id": "skycinemastories",
+      "name": "Sky Cinema Stories",
+      "group": "Sky Cinema",
+      "manifest_expires": "1778842888"
+    },
+    {
+      "id": "skycinemasuspense",
+      "name": "Sky Cinema Suspense",
+      "group": "Sky Cinema",
+      "manifest_expires": "1778842846"
+    },
+    {
+      "id": "skycinemauno",
+      "name": "Sky Cinema Uno",
+      "group": "Sky Cinema",
+      "manifest_expires": "unknown"
+    },
+    {
+      "id": "skycollection",
+      "name": "Sky Collection",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778842846"
+    },
+    {
+      "id": "skycrime",
+      "name": "Sky Crime",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778795979"
+    },
+    {
+      "id": "skydocumentaries",
+      "name": "Sky Documentaries",
+      "group": "Sky Documentari",
+      "manifest_expires": "1778842850"
+    },
+    {
+      "id": "skyinvestigation",
+      "name": "Sky Investigation",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778842884"
+    },
+    {
+      "id": "skynature",
+      "name": "Sky Nature",
+      "group": "Sky Documentari",
+      "manifest_expires": "1778842892"
+    },
+    {
+      "id": "skyserie",
+      "name": "Sky Serie",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778842852"
+    },
+    {
+      "id": "skysport24",
+      "name": "Sky Sport 24",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842845"
+    },
+    {
+      "id": "skysport251",
+      "name": "Sky Sport 251",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842849"
+    },
+    {
+      "id": "skysport252",
+      "name": "Sky Sport 252",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842844"
+    },
+    {
+      "id": "skysport253",
+      "name": "Sky Sport 253",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842845"
+    },
+    {
+      "id": "skysport254",
+      "name": "Sky Sport 254",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842849"
+    },
+    {
+      "id": "skysport255",
+      "name": "Sky Sport 255",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842851"
+    },
+    {
+      "id": "skysport256",
+      "name": "Sky Sport 256",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842843"
+    },
+    {
+      "id": "skysport257",
+      "name": "Sky Sport 257",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842854"
+    },
+    {
+      "id": "skysport258",
+      "name": "Sky Sport 258",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778816474"
+    },
+    {
+      "id": "skysport259",
+      "name": "Sky Sport 259",
+      "group": "Sky Sport Calcio",
+      "manifest_expires": "1778842846"
+    },
+    {
+      "id": "skysportarena",
+      "name": "Sky Sport Arena",
+      "group": "Sky Sport",
+      "manifest_expires": "1778778988"
+    },
+    {
+      "id": "skysportbasket",
+      "name": "Sky Sport Basket",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842887"
+    },
+    {
+      "id": "skysportcalcio",
+      "name": "Sky Sport Calcio",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842850"
+    },
+    {
+      "id": "skysportf1",
+      "name": "Sky Sport F1",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842843"
+    },
+    {
+      "id": "skysportgolf",
+      "name": "Sky Sport Golf",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842847"
+    },
+    {
+      "id": "skysportlegend",
+      "name": "Sky Sport Legend",
+      "group": "Sky Sport",
+      "manifest_expires": "1778831787"
+    },
+    {
+      "id": "skysportmax",
+      "name": "Sky Sport Max",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842847"
+    },
+    {
+      "id": "skysportmix",
+      "name": "Sky Sport Mix",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842886"
+    },
+    {
+      "id": "skysportmotogp",
+      "name": "Sky Sport MotoGP",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842912"
+    },
+    {
+      "id": "skysporttennis",
+      "name": "Sky Sport Tennis",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842877"
+    },
+    {
+      "id": "skysportuno",
+      "name": "Sky Sport Uno",
+      "group": "Sky Sport",
+      "manifest_expires": "1778842858"
+    },
+    {
+      "id": "skyuno",
+      "name": "Sky Uno",
+      "group": "Sky Intrattenimento",
+      "manifest_expires": "1778842847"
+    },
+    {
+      "id": "tg24",
+      "name": "Sky TG24",
+      "group": "Sky Informazione",
+      "manifest_expires": "1778834725"
+    }
+  ]
+}
