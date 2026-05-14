@@ -253,7 +253,7 @@ def get_listing_channels():
 
 def resolve_channel(ch_id):
     """Risolve un singolo canale ottenendo manifest URL + chiavi clearkey."""
-    url = AMSTAFF_RESOLVE_URL.format(ch_id)
+    url = AMSTAFF_RESOLVE_URL + ch_id
     raw = fetch_url(url, headers={"User-Agent": AMSTAFF_USER_AGENT}, timeout=15)
     if not raw:
         return None
