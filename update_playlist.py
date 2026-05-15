@@ -569,7 +569,7 @@ def main():
     # ============================================================
     # PLAYLIST: Genera M3U con riferimento EPG
     # ============================================================
-    epg_url = "epg.xml.gz"
+    epg_url = "epg.xml"
 
     outputs = {
         "playlist_kodi.m3u": generate_m3u_kodi(channels, epg_url=epg_url),
