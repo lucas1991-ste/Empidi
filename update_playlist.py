@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-IPTV Playlist Generator - Sky/NowTV Channels via Amstaff API
+IPTV Playlist Generator - Sky Italia Channels
 Genera playlist M3U con flussi MPD + clearkey per canali Sky italiani.
 I link sono dinamici e vengono aggiornati ad ogni esecuzione.
 
-Fonte stream: Amstaff API con credenziali Mandrakodi
 Fonte EPG: iptv-epg.org (11 giorni, 53 canali Sky, aggiornato quotidianamente)
 Decrittazione: XOR con chiave -> JSON con manifest/kid/key
 
@@ -32,22 +31,22 @@ from urllib.error import HTTPError, URLError
 # CONFIGURAZIONE - TUTTO DA ENV VARS
 # ============================================================
 
-AMSTAFF_LIST_URL = os.environ.get("AMSTAFF_LIST_URL", "")
-AMSTAFF_RESOLVE_URL = os.environ.get("AMSTAFF_RESOLVE_URL", "")
-AMSTAFF_USER_AGENT = os.environ.get("AMSTAFF_USER_AGENT", "")
-XOR_SECRET = os.environ.get("XOR_SECRET", "")
+API_LIST_URL = os.environ.get("API_LIST_URL", "")
+API_RESOLVE_URL = os.environ.get("API_RESOLVE_URL", "")
+API_AUTH = os.environ.get("API_AUTH", "")
+CRYPTO_KEY = os.environ.get("CRYPTO_KEY", "")
 
 def check_env():
     """Verifica che tutte le env vars obbligatorie siano impostate."""
     missing = []
-    if not AMSTAFF_LIST_URL:
-        missing.append("AMSTAFF_LIST_URL")
-    if not AMSTAFF_RESOLVE_URL:
-        missing.append("AMSTAFF_RESOLVE_URL")
-    if not AMSTAFF_USER_AGENT:
-        missing.append("AMSTAFF_USER_AGENT")
-    if not XOR_SECRET:
-        missing.append("XOR_SECRET")
+    if not API_LIST_URL:
+        missing.append("API_LIST_URL")
+    if not API_RESOLVE_URL:
+        missing.append("API_RESOLVE_URL")
+    if not API_AUTH:
+        missing.append("API_AUTH")
+    if not CRYPTO_KEY:
+        missing.append("CRYPTO_KEY")
     if missing:
         print(f"[ERRORE] Variabili d'ambiente mancanti: {', '.join(missing)}")
         print("Impostale nel tuo .env file o nelle GitHub Secrets.")
@@ -58,7 +57,7 @@ def check_env():
 # DEFINIZIONE CANALI
 # ============================================================
 
-# ID Amstaff -> nome pulito
+# ID canale -> nome visualizzato
 CHANNEL_NAMES = {
     "tg24": "Sky TG24",
     "skyuno": "Sky Uno",
@@ -207,7 +206,7 @@ def get_group(ch_id):
 # EPG: MAPPING CANALI -> iptv-epg.org
 # ============================================================
 
-# ID Amstaff -> tvg-id nel formato iptv-epg.org (es. "SkyUno.it")
+# ID canale -> tvg-id nel formato iptv-epg.org (es. "SkyUno.it")
 # Fonte EPG: https://iptv-epg.org/files/epg-it.xml.gz (11 giorni, 53 canali Sky)
 TVG_ID_MAP = {
     "tg24": "SkyTG24.it",
@@ -268,7 +267,7 @@ EPG_SOURCE_URL = "https://iptv-epg.org/files/epg-it.xml.gz"
 # ============================================================
 
 def xor_decrypt(data_b64, key):
-    """Decrittazione XOR come nel myResolver.py di Mandrakodi."""
+    """Decrittazione XOR dei dati dal provider."""
     data = base64.b64decode(data_b64)
     key_bytes = key.encode()
     out = bytearray()
@@ -289,8 +288,8 @@ def fetch_url(url, headers=None, timeout=30):
 
 
 def get_listing_channels():
-    """Ottiene la lista dei canali dall'API Amstaff (listing endpoint)."""
-    raw = fetch_url(AMSTAFF_LIST_URL, headers={"User-Agent": AMSTAFF_USER_AGENT})
+    """Ottiene la lista dei canali dal provider (listing endpoint)."""
+    raw = fetch_url(API_LIST_URL, headers={"User-Agent": API_AUTH})
     if not raw:
         return []
 
@@ -315,8 +314,8 @@ def get_listing_channels():
 
 def resolve_channel(ch_id):
     """Risolve un singolo canale ottenendo manifest URL + chiavi clearkey."""
-    url = AMSTAFF_RESOLVE_URL + ch_id
-    raw = fetch_url(url, headers={"User-Agent": AMSTAFF_USER_AGENT}, timeout=15)
+    url = API_RESOLVE_URL + ch_id
+    raw = fetch_url(url, headers={"User-Agent": API_AUTH}, timeout=15)
     if not raw:
         return None
 
@@ -324,7 +323,7 @@ def resolve_channel(ch_id):
         data = json.loads(raw)
         if "data" not in data:
             return None
-        decrypted = json.loads(xor_decrypt(data["data"], XOR_SECRET))
+        decrypted = json.loads(xor_decrypt(data["data"], CRYPTO_KEY))
         return {
             "manifest": decrypted["manifest"],
             "kid": decrypted["kid"],
@@ -585,7 +584,7 @@ def main():
         }
     stremio_json = json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(),
-        "source": "amstaff-mandrakodi",
+        "source": "playlist-api",
         "channel_count": len(channels),
         "channels": streams,
     }, indent=2, ensure_ascii=False)
