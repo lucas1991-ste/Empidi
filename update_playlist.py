@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
-IPTV Playlist Generator - Sky/NowTV Channels via Amstaff API
-Genera una playlist M3U con flussi MPD + clearkey per canali Sky italiani.
-I link sono dinamici e vengono aggiornati ad ogni esecuzione.
+IPTV Playlist + EPG Generator - Sky/NowTV Channels via Amstaff API
+Genera playlist M3U con flussi MPD + clearkey e guida programmi XMLTV
+per canali Sky italiani. I link sono dinamici e vengono aggiornati ad ogni esecuzione.
 
-Fonte: Amstaff API con credenziali Mandrakodi
+Fonte stream: Amstaff API con credenziali Mandrakodi
+Fonte EPG: API ufficiale Sky (apid.sky.it/gtv/v1)
 Decrittazione: XOR con chiave -> JSON con manifest/kid/key
 
 CREDENZIALI: Tutte le credenziali sensibili vengono lette da variabili d'ambiente.
              Non hardcodare nulla in questo file.
 
-Formati di output supportati:
-  - m3u_kodi:     M3U per Kodi + InputStream Adaptive (KODIPROP)
-  - m3u_tivimate: M3U per Tivimate/iMPlayer (formato pipe key)
-  - m3u_stremio:  JSON per Stremio addon
+Formati di output:
+  - playlist_kodi.m3u:     M3U per Sparkle TV / Kodi / UHF (KODIPROP)
+  - playlist_tivimate.m3u: M3U per Tivimate/iMPlayer (formato pipe key)
+  - epg.xml:               Guida programmi XMLTV
+  - epg.xml.gz:            Guida programmi compressa (per app che lo supportano)
 """
 
 import json
@@ -21,7 +23,9 @@ import base64
 import re
 import sys
 import os
+import gzip
 from datetime import datetime, timezone
+
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -29,7 +33,6 @@ from urllib.error import HTTPError, URLError
 # CONFIGURAZIONE - TUTTO DA ENV VARS
 # ============================================================
 
-# Obbligatorie: il script fallisce se non sono impostate
 AMSTAFF_LIST_URL = os.environ.get("AMSTAFF_LIST_URL", "")
 AMSTAFF_RESOLVE_URL = os.environ.get("AMSTAFF_RESOLVE_URL", "")
 AMSTAFF_USER_AGENT = os.environ.get("AMSTAFF_USER_AGENT", "")
@@ -56,10 +59,8 @@ def check_env():
 # DEFINIZIONE CANALI
 # ============================================================
 
-# Canali noti: ID -> nome pulito
-# I primi 14 sono nell'API listing (sky@@), gli altri sono risolvibili direttamente
+# ID Amstaff -> nome pulito
 CHANNEL_NAMES = {
-    # --- Intrattenimento (dal listing) ---
     "tg24": "Sky TG24",
     "skyuno": "Sky Uno",
     "skyatlantic": "Sky Atlantic",
@@ -69,14 +70,11 @@ CHANNEL_NAMES = {
     "skyadventure": "Sky Adventure",
     "skycrime": "Sky Crime",
     "comedycentral": "Comedy Central",
-    # --- Documentari/Cultura (dal listing) ---
     "skydocumentaries": "Sky Documentaries",
     "skynature": "Sky Nature",
     "historychannel": "History Channel",
     "skyarte": "Sky Arte",
-    # --- Musica (dal listing) ---
     "mtv": "MTV",
-    # --- Sport ---
     "skysport24": "Sky Sport 24",
     "skysportuno": "Sky Sport Uno",
     "skysportarena": "Sky Sport Arena",
@@ -89,7 +87,6 @@ CHANNEL_NAMES = {
     "skysportlegend": "Sky Sport Legend",
     "skysportmax": "Sky Sport Max",
     "skysportcalcio": "Sky Sport Calcio",
-    # --- Calcio numerato ---
     "skysport251": "Sky Sport 251",
     "skysport252": "Sky Sport 252",
     "skysport253": "Sky Sport 253",
@@ -99,7 +96,6 @@ CHANNEL_NAMES = {
     "skysport257": "Sky Sport 257",
     "skysport258": "Sky Sport 258",
     "skysport259": "Sky Sport 259",
-    # --- Cinema ---
     "skycinemauno": "Sky Cinema Uno",
     "skycinemaaction": "Sky Cinema Action",
     "skycinemacomedy": "Sky Cinema Comedy",
@@ -108,45 +104,70 @@ CHANNEL_NAMES = {
     "skycinemaromance": "Sky Cinema Romance",
     "skycinemasuspense": "Sky Cinema Suspense",
     "skycinemastories": "Sky Cinema Stories",
-    # --- Kids ---
     "nickelodeon": "Nickelodeon",
     "deakids": "DeAKids",
     "boomerang": "Boomerang",
     "cartoonnetwork": "Cartoon Network",
 }
 
-# Loghi ufficiali Sky/NowTV
+# Loghi da tv-logo/tv-logos via jsDelivr CDN (PNG trasparenti, stabili, veloci)
+# Fonte: https://github.com/tv-logo/tv-logos
+LOGO_CDN = "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy"
+LOGO_CDN_UK = "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-kingdom"
+
 LOGO_MAP = {
-    "tg24": "https://pixel.disco.nowtv.it/logo/skychb_519_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skyuno": "https://pixel.disco.nowtv.it/logo/skychb_477_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skyatlantic": "https://pixel.disco.nowtv.it/logo/skychb_226_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skyserie": "https://pixel.disco.nowtv.it/logo/skychb_684_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycollection": "https://pixel.disco.nowtv.it/logo/skychb_431_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skyinvestigation": "https://pixel.disco.nowtv.it/logo/skychb_686_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skyadventure": "https://pixel.disco.nowtv.it/logo/skychb_961_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycrime": "https://pixel.disco.nowtv.it/logo/skychb_249_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skydocumentaries": "https://pixel.disco.nowtv.it/logo/skychb_877_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skynature": "https://pixel.disco.nowtv.it/logo/skychb_417_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skyarte": "https://pixel.disco.nowtv.it/logo/skychb_986_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "mtv": "https://pixel.disco.nowtv.it/logo/skychb_128_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "comedycentral": "https://pixel.disco.nowtv.it/logo/skychb_312_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "historychannel": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/History_Logo.svg/200px-History_Logo.svg.png",
-    "skysport24": "https://pixel.disco.nowtv.it/logo/skychb_35skysport24hddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportuno": "https://pixel.disco.nowtv.it/logo/skychb_23skysportunohddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportarena": "https://pixel.disco.nowtv.it/logo/skychb_24skysportarenahddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportf1": "https://pixel.disco.nowtv.it/logo/skychb_478skysportf1hddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportmotogp": "https://pixel.disco.nowtv.it/logo/skychb_483skysportmotogphddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportgolf": "https://pixel.disco.nowtv.it/logo/skychb_234skysportdark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysporttennis": "https://pixel.disco.nowtv.it/logo/skychb_559skysporttennisdark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportmix": "https://pixel.disco.nowtv.it/logo/skychb_877_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportlegend": "https://pixel.disco.nowtv.it/logo/skychb_234skysportdark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skysportbasket": "https://pixel.disco.nowtv.it/logo/skychb_764skysportnbahddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycinemauno": "https://pixel.disco.nowtv.it/logo/skychb_402_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycinemaaction": "https://pixel.disco.nowtv.it/logo/skychb_309_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycinemacomedy": "https://pixel.disco.nowtv.it/logo/skychb_418_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycinemadrama": "https://pixel.disco.nowtv.it/logo/skychb_979_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycinemafamily": "https://pixel.disco.nowtv.it/logo/skychb_298_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-    "skycinemaromance": "https://pixel.disco.nowtv.it/logo/skychb_670_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
+    # Intrattenimento
+    "tg24": f"{LOGO_CDN}/sky-tg24-it.png",
+    "skyuno": f"{LOGO_CDN}/sky-uno-it.png",
+    "skyatlantic": f"{LOGO_CDN}/sky-atlantic-it.png",
+    "skyserie": f"{LOGO_CDN}/sky-serie-it.png",
+    "skycollection": f"{LOGO_CDN}/sky-collection-it.png",
+    "skyinvestigation": f"{LOGO_CDN}/sky-investigation-it.png",
+    "skyadventure": f"{LOGO_CDN}/sky-adventure-it.png",
+    "skycrime": f"{LOGO_CDN}/sky-crime-it.png",
+    "comedycentral": f"{LOGO_CDN_UK}/comedy-central-uk.png",
+    "skydocumentaries": f"{LOGO_CDN}/sky-documentaries-it.png",
+    "skynature": f"{LOGO_CDN}/sky-nature-it.png",
+    "historychannel": f"{LOGO_CDN}/history-channel-it.png",
+    "skyarte": f"{LOGO_CDN}/sky-arte-it.png",
+    "mtv": f"{LOGO_CDN}/mtv-it.png",
+    # Sport
+    "skysport24": f"{LOGO_CDN}/sky-sport-24-it.png",
+    "skysportuno": f"{LOGO_CDN}/sky-sport-uno-it.png",
+    "skysportarena": f"{LOGO_CDN}/sky-sport-arena-it.png",
+    "skysportf1": f"{LOGO_CDN}/sky-sport-f1-it.png",
+    "skysportmotogp": f"{LOGO_CDN}/sky-sport-motogp-it.png",
+    "skysportgolf": f"{LOGO_CDN}/sky-sport-golf-it.png",
+    "skysporttennis": f"{LOGO_CDN}/sky-sport-tennis-it.png",
+    "skysportmix": f"{LOGO_CDN}/sky-sport-mix-it.png",
+    "skysportbasket": f"{LOGO_CDN}/sky-sport-nba-it.png",
+    "skysportlegend": f"{LOGO_CDN}/sky-sport-legend-it.png",
+    "skysportmax": f"{LOGO_CDN}/sky-sport-max-it.png",
+    "skysportcalcio": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    # Sky Sport 251-259: canali evento, usano logo Sky Sport Calcio
+    "skysport251": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport252": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport253": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport254": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport255": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport256": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport257": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport258": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    "skysport259": f"{LOGO_CDN}/sky-sport-calcio-it.png",
+    # Cinema
+    "skycinemauno": f"{LOGO_CDN}/sky-cinema-uno-it.png",
+    "skycinemaaction": f"{LOGO_CDN}/sky-cinema-action-it.png",
+    "skycinemacomedy": f"{LOGO_CDN}/sky-cinema-comedy-it.png",
+    "skycinemadrama": f"{LOGO_CDN}/sky-cinema-drama-it.png",
+    "skycinemafamily": f"{LOGO_CDN}/sky-cinema-family-it.png",
+    "skycinemaromance": f"{LOGO_CDN}/sky-cinema-romance-it.png",
+    "skycinemasuspense": f"{LOGO_CDN}/sky-cinema-suspense-it.png",
+    "skycinemastories": f"{LOGO_CDN}/sky-cinema-due-it.png",
+    # Kids
+    "nickelodeon": f"{LOGO_CDN}/nickelodeon-it.png",
+    "deakids": f"{LOGO_CDN}/dea-kids-it.png",
+    "boomerang": f"{LOGO_CDN}/boomerang-it.png",
+    "cartoonnetwork": f"{LOGO_CDN}/cartoon-network-it.png",
 }
 
 # Gruppi
@@ -183,26 +204,68 @@ def get_group(ch_id):
         return "Sky Cinema"
     return GROUP_MAP.get(ch_id, "Sky")
 
-# EPG ID mapping
-EPG_MAP = {
-    "tg24": "skytg24.it", "skyuno": "skyuno.it", "skyatlantic": "skyatlantic.it",
-    "skyserie": "skyserie.it", "skycollection": "skycollection.it",
-    "skysport24": "skysport24.it", "skysportuno": "skysport1.it",
-    "skysportarena": "skysportarena.it", "skysportf1": "skysportf1.it",
-    "skysportmotogp": "skysportmotogp.it", "skysportbasket": "skysportnba.it",
-    "skysport251": "skysport251.it", "skysport252": "skysport252.it",
-    "skysport253": "skysport253.it", "skysport254": "skysport254.it",
-    "skysport255": "skysport255.it", "skysport256": "skysport256.it",
-    "skysport257": "skysport257.it", "skysport258": "skysport258.it",
-    "skysport259": "skysport259.it",
-    "skycinemauno": "skycinema1.it", "skycinemaaction": "skycinemaaction.it",
-    "skycinemacomedy": "skycinemacomedy.it", "skycinemadrama": "skycinemadrama.it",
-    "skycinemafamily": "skycinemafamily.it", "skycinemaromance": "skycinemaromance.it",
+# ============================================================
+# EPG: MAPPING CANALI -> epgshare01
+# ============================================================
+
+# ID Amstaff -> tvg-id nel formato epgshare01 (es. "Sky.Uno.it")
+# Fonte EPG: https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz
+TVG_ID_MAP = {
+    "tg24": "Sky.TG24.it",
+    "skyuno": "Sky.Uno.it",
+    "skyatlantic": "Sky.Atlantic.it",
+    "skyserie": "Sky.Serie.it",
+    "skycollection": "Sky.Cinema.Collection.it",
+    "skyinvestigation": "Sky.Investigation.it",
+    "skyadventure": "Sky.Adventure.it",
+    "skycrime": "Sky.Crime.it",
+    "comedycentral": "Comedy.Central.it",
+    "skydocumentaries": "Sky.Documentaries.it",
+    "skynature": "Sky.Nature.it",
+    "historychannel": "History.it",
+    "skyarte": "Sky.Arte.it",
+    "mtv": "MTV.it",
+    "skysport24": "Sky.Sport.24.it",
+    "skysportuno": "Sky.Sport.Uno.it",
+    "skysportarena": "Sky.Sport.Arena.it",
+    "skysportf1": "Sky.Sport.F1.it",
+    "skysportmotogp": "Sky.Sport.MotoGP.it",
+    "skysportgolf": "Sky.Sport.Golf.it",
+    "skysporttennis": "Sky.Sport.Tennis.it",
+    "skysportmix": "Sky.Sport.Mix.it",
+    "skysportbasket": "Sky.Sport.NBA.it",
+    "skysportlegend": "Sky.Sport.Legend.it",
+    "skysportmax": "Sky.Sport.Max.it",
+    "skysportcalcio": "Sky.Sport.Calcio.it",
+    "skysport251": "Sky.Sport.251.it",
+    "skysport252": "Sky.Sport.252.it",
+    "skysport253": "Sky.Sport.253.it",
+    "skysport254": "Sky.Sport.254.it",
+    "skysport255": "Sky.Sport.255.it",
+    "skysport256": "Sky.Sport.256.it",
+    "skysport257": "Sky.Sport.257.it",
+    "skysport258": "Sky.Sport.258.it",
+    "skysport259": "Sky.Sport.259.it",
+    "skycinemauno": "Sky.Cinema.Uno.it",
+    "skycinemaaction": "Sky.Cinema.Action.it",
+    "skycinemacomedy": "Sky.Cinema.Comedy.it",
+    "skycinemadrama": "Sky.Cinema.Drama.it",
+    "skycinemafamily": "Sky.Cinema.Family.it",
+    "skycinemaromance": "Sky.Cinema.Romance.it",
+    "skycinemasuspense": "Sky.Cinema.Suspense.it",
+    "skycinemastories": "Sky.Cinema.Collection.it",
+    "nickelodeon": "Nickelodeon.it",
+    "deakids": "DeA.Kids.it",
+    "boomerang": "Boomerang.it",
+    "cartoonnetwork": "Cartoon.Network.it",
 }
+
+# URL fonte EPG (epgshare01, aggiornata giornalmente)
+EPG_SOURCE_URL = "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
 
 
 # ============================================================
-# FUNZIONI CORE
+# FUNZIONI CORE - STREAM
 # ============================================================
 
 def xor_decrypt(data_b64, key):
@@ -302,12 +365,12 @@ def fetch_all_channels():
             result["name"] = name
             result["group"] = get_group(ch_id)
             result["logo"] = LOGO_MAP.get(ch_id, "")
-            result["epg_id"] = EPG_MAP.get(ch_id, "")
+            result["tvg_id"] = TVG_ID_MAP.get(ch_id, "")
             resolved.append(result)
-            print(f"  ✅ {name}")
+            print(f"  OK {name}")
         else:
             failed.append((ch_id, name))
-            print(f"  ❌ {name} (non disponibile)")
+            print(f"  X  {name} (non disponibile)")
 
     print(f"\n[3] Risolti: {len(resolved)}/{len(all_channels)}")
     if failed:
@@ -320,14 +383,16 @@ def fetch_all_channels():
 # GENERATORI M3U
 # ============================================================
 
-def generate_m3u_kodi(channels):
+def generate_m3u_kodi(channels, epg_url=""):
     """
     Genera M3U in formato compatibile con Sparkle TV, Kodi, UHF, etc.
     Usa il formato license_type + license_key (non drm_legacy).
-    KODIPROP dopo EXTINF, come nelle liste M3U standard.
-    Nessun stream_headers/manifest_headers per massima compatibilità.
     """
-    lines = ["#EXTM3U"]
+    # Header con eventuale riferimento EPG
+    header = "#EXTM3U"
+    if epg_url:
+        header += f' url-tvg="{epg_url}"'
+    lines = [header]
 
     for ch in channels:
         kid = ch["kid"]
@@ -335,15 +400,15 @@ def generate_m3u_kodi(channels):
         manifest = ch["manifest"]
         group = ch.get("group", "Sky")
         logo = ch.get("logo", "")
-        epg_id = ch.get("epg_id", "")
+        tvg_id = ch.get("tvg_id", "")
 
-        # EXTINF prima delle KODIPROP (formato standard M3U)
-        tvg_id = f' tvg-id="{epg_id}"' if epg_id else ""
-        tvg_logo = f' tvg-logo="{logo}"' if logo else ""
-        group_title = f' group-title="{group}"' if group else ""
-        lines.append(f'#EXTINF:-1{tvg_id}{tvg_logo}{group_title},{ch["name"]}')
+        # EXTINF
+        tid = f' tvg-id="{tvg_id}"' if tvg_id else ""
+        tlogo = f' tvg-logo="{logo}"' if logo else ""
+        gtitle = f' group-title="{group}"' if group else ""
+        lines.append(f'#EXTINF:-1{tid}{tlogo}{gtitle},{ch["name"]}')
 
-        # KODIPROP dopo EXTINF, formato classico license_type + license_key
+        # KODIPROP formato classico
         lines.append(f'#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey')
         lines.append(f'#KODIPROP:inputstream.adaptive.license_key={kid}:{key}')
         lines.append(manifest)
@@ -351,13 +416,15 @@ def generate_m3u_kodi(channels):
     return "\n".join(lines) + "\n"
 
 
-def generate_m3u_pipe(channels):
+def generate_m3u_pipe(channels, epg_url=""):
     """
-    Genera M3U con formato pipe per player che supportano
+    Genera M3U con formato pipe per Tivimate/iMPlayer/Televizo.
     clearkey via URL: manifest.mpd|key_id=XXX&key=YYY
-    Compatibile con: Tivimate, iMPlayer, Televizo, etc.
     """
-    lines = ["#EXTM3U"]
+    header = "#EXTM3U"
+    if epg_url:
+        header += f' url-tvg="{epg_url}"'
+    lines = [header]
 
     for ch in channels:
         kid = ch["kid"]
@@ -365,40 +432,117 @@ def generate_m3u_pipe(channels):
         manifest = ch["manifest"]
         group = ch.get("group", "Sky")
         logo = ch.get("logo", "")
-        epg_id = ch.get("epg_id", "")
+        tvg_id = ch.get("tvg_id", "")
 
-        tvg_id = f' tvg-id="{epg_id}"' if epg_id else ""
-        tvg_logo = f' tvg-logo="{logo}"' if logo else ""
-        group_title = f' group-title="{group}"' if group else ""
+        tid = f' tvg-id="{tvg_id}"' if tvg_id else ""
+        tlogo = f' tvg-logo="{logo}"' if logo else ""
+        gtitle = f' group-title="{group}"' if group else ""
 
-        lines.append(f'#EXTINF:-1{tvg_id}{tvg_logo}{group_title},{ch["name"]}')
+        lines.append(f'#EXTINF:-1{tid}{tlogo}{gtitle},{ch["name"]}')
         lines.append(f"{manifest}|key_id={kid}&key={key}")
 
     return "\n".join(lines) + "\n"
 
 
-def generate_m3u_stremio(channels):
-    """
-    Genera JSON nel formato Stremio addon (manifest + streams).
-    """
-    streams = {}
-    for ch in channels:
-        streams[ch["id"]] = {
-            "name": ch["name"],
-            "manifest": ch["manifest"],
-            "kid": ch["kid"],
-            "key": ch["key"],
-            "group": ch.get("group", ""),
-            "logo": ch.get("logo", ""),
-            "epg_id": ch.get("epg_id", ""),
-        }
+# ============================================================
+# EPG: FILTRO DA FONTE ESTERNA (epgshare01)
+# ============================================================
 
-    return json.dumps({
-        "updated": datetime.now(timezone.utc).isoformat(),
-        "source": "amstaff-mandrakodi",
-        "channel_count": len(channels),
-        "channels": streams,
-    }, indent=2, ensure_ascii=False)
+def download_and_filter_epg(channels, out_dir):
+    """
+    Scarica EPG da epgshare01 e filtra solo i canali della nostra playlist.
+    Salva epg.xml e epg.xml.gz nella directory di output.
+    Ritorna il numero di programmi trovati.
+    """
+    # Raccogli i tvg-id dei nostri canali risolti
+    our_tvg_ids = set()
+    for ch in channels:
+        tvg_id = ch.get("tvg_id", "")
+        if tvg_id:
+            our_tvg_ids.add(tvg_id)
+
+    if not our_tvg_ids:
+        print("    Nessun canale con tvg-id, salto EPG")
+        return 0
+
+    print(f"    Canali da cercare: {len(our_tvg_ids)}")
+
+    # Scarica EPG compresso (serve User-Agent browser)
+    try:
+        req = Request(EPG_SOURCE_URL, headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+            "Accept": "*/*",
+        })
+        resp = urlopen(req, timeout=120)
+        gz_data = resp.read()
+        print(f"    Scaricato EPG: {len(gz_data)} bytes (gz)")
+    except Exception as e:
+        print(f"    [WARN] Errore download EPG: {e}", file=sys.stderr)
+        return 0
+
+    # Decomprimi
+    try:
+        xml_content = gzip.decompress(gz_data).decode("utf-8")
+        print(f"    Decompresso: {len(xml_content)} bytes")
+    except Exception as e:
+        print(f"    [WARN] Errore decompressione EPG: {e}", file=sys.stderr)
+        return 0
+
+    # Filtra: estrai solo <channel> e <programme> per i nostri tvg-id
+    # Usiamo regex per semplicita' e velocita' (evitiamo di caricare tutto in DOM)
+    import re as _re
+
+    # Estrai i channel elements che ci servono
+    channel_pattern = _re.compile(
+        r'<channel\s+id="([^"]+)"[^>]*>.*?</channel>',
+        _re.DOTALL
+    )
+    programme_pattern = _re.compile(
+        r'<programme\s+[^>]*channel="([^"]+)"[^>]*>.*?</programme>',
+        _re.DOTALL
+    )
+
+    # Estrai header <tv>
+    tv_match = _re.search(r'(<tv[^>]*>)', xml_content)
+    tv_header = tv_match.group(1) if tv_match else '<tv>'
+
+    # Filtra channels
+    filtered_channels = []
+    for m in channel_pattern.finditer(xml_content):
+        ch_id = m.group(1)
+        if ch_id in our_tvg_ids:
+            filtered_channels.append(m.group(0))
+
+    # Filtra programmes
+    filtered_programmes = []
+    for m in programme_pattern.finditer(xml_content):
+        ch_id = m.group(1)
+        if ch_id in our_tvg_ids:
+            filtered_programmes.append(m.group(0))
+
+    # Costruisci XML filtrato
+    epg_filtered = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    epg_filtered += tv_header + '\n'
+    for ch in filtered_channels:
+        epg_filtered += ch + '\n'
+    for prog in filtered_programmes:
+        epg_filtered += prog + '\n'
+    epg_filtered += '</tv>'
+
+    # Salva epg.xml
+    epg_path = os.path.join(out_dir, "epg.xml")
+    with open(epg_path, "w", encoding="utf-8") as f:
+        f.write(epg_filtered)
+    print(f"    [OUTPUT] {epg_path} ({len(epg_filtered)} bytes)")
+
+    # Salva epg.xml.gz
+    epg_gz_path = os.path.join(out_dir, "epg.xml.gz")
+    with open(epg_gz_path, "wb") as f:
+        f.write(gzip.compress(epg_filtered.encode("utf-8")))
+    print(f"    [OUTPUT] {epg_gz_path}")
+
+    print(f"    Canali EPG: {len(filtered_channels)}, Programmi: {len(filtered_programmes)}")
+    return len(filtered_programmes)
 
 
 # ============================================================
@@ -416,11 +560,20 @@ def main():
     out_dir = sys.argv[1] if len(sys.argv) > 1 else "."
     os.makedirs(out_dir, exist_ok=True)
 
-    # Genera tutti i formati
+    # ============================================================
+    # EPG: Scarica e filtra da epgshare01
+    # ============================================================
+    print(f"\n[4] Scaricamento EPG da epgshare01...")
+    epg_count = download_and_filter_epg(channels, out_dir)
+
+    # ============================================================
+    # PLAYLIST: Genera M3U con riferimento EPG
+    # ============================================================
+    epg_url = "epg.xml.gz"
+
     outputs = {
-        "playlist_kodi.m3u": generate_m3u_kodi(channels),
-        "playlist_tivimate.m3u": generate_m3u_pipe(channels),
-        "playlist_stremio.json": generate_m3u_stremio(channels),
+        "playlist_kodi.m3u": generate_m3u_kodi(channels, epg_url=epg_url),
+        "playlist_tivimate.m3u": generate_m3u_pipe(channels, epg_url=epg_url),
     }
 
     for filename, content in outputs.items():
@@ -429,16 +582,40 @@ def main():
             f.write(content)
         print(f"\n[OUTPUT] {filepath} ({len(content)} bytes)")
 
-    # Genera anche un file di stato
+    # Stremio JSON
+    streams = {}
+    for ch in channels:
+        streams[ch["id"]] = {
+            "name": ch["name"],
+            "manifest": ch["manifest"],
+            "kid": ch["kid"],
+            "key": ch["key"],
+            "group": ch.get("group", ""),
+            "logo": ch.get("logo", ""),
+            "tvg_id": ch.get("tvg_id", ""),
+        }
+    stremio_json = json.dumps({
+        "updated": datetime.now(timezone.utc).isoformat(),
+        "source": "amstaff-mandrakodi",
+        "channel_count": len(channels),
+        "channels": streams,
+    }, indent=2, ensure_ascii=False)
+    stremio_path = os.path.join(out_dir, "playlist_stremio.json")
+    with open(stremio_path, "w", encoding="utf-8") as f:
+        f.write(stremio_json)
+
+    # Status
     status = {
         "last_update": datetime.now(timezone.utc).isoformat(),
         "total_channels": len(channels),
+        "epg_programs": epg_count,
         "channels": [
             {
                 "id": ch["id"],
                 "name": ch["name"],
                 "group": ch.get("group", ""),
-                "manifest_expires": ch["manifest"].split("/v~1-0-0_e~")[1].split("_")[0] if "/v~1-0-0_e~" in ch["manifest"] else "unknown",
+                "tvg_id": ch.get("tvg_id", ""),
+                "has_epg": bool(ch.get("tvg_id")),
             }
             for ch in channels
         ],
@@ -446,9 +623,8 @@ def main():
     status_path = os.path.join(out_dir, "status.json")
     with open(status_path, "w", encoding="utf-8") as f:
         json.dump(status, f, indent=2, ensure_ascii=False)
-    print(f"[OUTPUT] {status_path}")
 
-    print(f"\n=== Completato: {len(channels)} canali ===")
+    print(f"\n=== Completato: {len(channels)} canali, {epg_count} programmi EPG ===")
 
 
 if __name__ == "__main__":
