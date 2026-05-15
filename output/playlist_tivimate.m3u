@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="epg.xml.gz"
+#EXTM3U url-tvg="epg.xml"
 #EXTINF:-1 tvg-id="Boomerang.it" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/boomerang-it.png" group-title="Sky Kids",Boomerang
 https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778797555_f~0_g~1_s~d9002b9d-aa2a-4bbc-8aa9-d18d7011dd90_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~55_x~a58b475fce4c6cd9fc2abedc63d4b224/nowitlin2/Content/CMAF_CTR_H1/Live/channel(boomerang)/master_2hr-all.mpd|key_id=1118ba94e4aef8a14f6a0a8427eb25dc&key=a7d17a614e2ac297c248d9435c99d6e3
 #EXTINF:-1 tvg-id="Cartoon.Network.it" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/cartoon-network-it.png" group-title="Sky Kids",Cartoon Network
