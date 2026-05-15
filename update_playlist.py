@@ -322,8 +322,10 @@ def fetch_all_channels():
 
 def generate_m3u_kodi(channels):
     """
-    Genera M3U per Kodi con InputStream Adaptive.
-    Usa #KODIPROP per passare la licenza clearkey.
+    Genera M3U in formato compatibile con Sparkle TV, Kodi, UHF, etc.
+    Usa il formato license_type + license_key (non drm_legacy).
+    KODIPROP dopo EXTINF, come nelle liste M3U standard.
+    Nessun stream_headers/manifest_headers per massima compatibilità.
     """
     lines = ["#EXTM3U"]
 
@@ -335,23 +337,15 @@ def generate_m3u_kodi(channels):
         logo = ch.get("logo", "")
         epg_id = ch.get("epg_id", "")
 
-        # Header KODIPROP per InputStream Adaptive
-        lines.append(f'#KODIPROP:inputstream=inputstream.adaptive')
-        lines.append(f'#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|{kid}:{key}')
-        lines.append(f'#KODIPROP:inputstream.adaptive.manifest_type=mpd')
-
-        # Headers HTTP per NowTV
-        ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
-        host = "https://www.nowtv.it"
-        stream_headers = f"User-Agent={ua}&Referer={host}/&Origin={host}"
-        lines.append(f'#KODIPROP:inputstream.adaptive.stream_headers={stream_headers}')
-        lines.append(f'#KODIPROP:inputstream.adaptive.manifest_headers={stream_headers}')
-
-        # EXTINF
+        # EXTINF prima delle KODIPROP (formato standard M3U)
         tvg_id = f' tvg-id="{epg_id}"' if epg_id else ""
         tvg_logo = f' tvg-logo="{logo}"' if logo else ""
         group_title = f' group-title="{group}"' if group else ""
         lines.append(f'#EXTINF:-1{tvg_id}{tvg_logo}{group_title},{ch["name"]}')
+
+        # KODIPROP dopo EXTINF, formato classico license_type + license_key
+        lines.append(f'#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey')
+        lines.append(f'#KODIPROP:inputstream.adaptive.license_key={kid}:{key}')
         lines.append(manifest)
 
     return "\n".join(lines) + "\n"
