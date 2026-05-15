@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T00:27:04.759299+00:00",
+  "updated": "2026-05-15T01:26:57.658705+00:00",
   "source": "amstaff-mandrakodi",
   "channel_count": 47,
   "channels": {
@@ -9,8 +9,8 @@
       "kid": "1118ba94e4aef8a14f6a0a8427eb25dc",
       "key": "a7d17a614e2ac297c248d9435c99d6e3",
       "group": "Sky Kids",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/boomerang-it.png",
+      "tvg_id": "Boomerang.it"
     },
     "cartoonnetwork": {
       "name": "Cartoon Network",
@@ -18,8 +18,8 @@
       "kid": "11189c4f64af73ffdc1a8c6bbb6e2f8a",
       "key": "eb3517c592b7774693a2b30e4b39e461",
       "group": "Sky Kids",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/cartoon-network-it.png",
+      "tvg_id": "Cartoon.Network.it"
     },
     "comedycentral": {
       "name": "Comedy Central",
@@ -27,8 +27,8 @@
       "kid": "11189afa675ae2e1ac1e39747f54e3ff",
       "key": "c48d5ac4621d7738f8442b6476618705",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_312_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-kingdom/comedy-central-uk.png",
+      "tvg_id": "Comedy.Central.it"
     },
     "deakids": {
       "name": "DeAKids",
@@ -36,8 +36,8 @@
       "kid": "11186c855368b14808a44caa148954db",
       "key": "779ac5495ac22c6458b6f705c46b9aef",
       "group": "Sky Kids",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dea-kids-it.png",
+      "tvg_id": "DeA.Kids.it"
     },
     "historychannel": {
       "name": "History Channel",
@@ -45,8 +45,8 @@
       "kid": "11188c23784cc238e403a7ed90958795",
       "key": "a8a2fa68d6803452537b7862503f7b8b",
       "group": "Sky Documentari",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/History_Logo.svg/200px-History_Logo.svg.png",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/history-channel-it.png",
+      "tvg_id": "History.it"
     },
     "mtv": {
       "name": "MTV",
@@ -54,8 +54,8 @@
       "kid": "1118e69d1a583898ef3362facf7964e8",
       "key": "d67dcac48e516e4c8b528d0e3fe23d24",
       "group": "Sky Musica",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_128_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/mtv-it.png",
+      "tvg_id": "MTV.it"
     },
     "nickelodeon": {
       "name": "Nickelodeon",
@@ -63,8 +63,8 @@
       "kid": "11184d4970ee622e9acdc10016b4112e",
       "key": "d4e99a107ba1c7ab10e0494285bbacf7",
       "group": "Sky Kids",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/nickelodeon-it.png",
+      "tvg_id": "Nickelodeon.it"
     },
     "skyadventure": {
       "name": "Sky Adventure",
@@ -72,8 +72,8 @@
       "kid": "1118064bcea5a4106fb2267f279f2649",
       "key": "279a852121432f14ea2e7c5d15401238",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_961_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-adventure-it.png",
+      "tvg_id": "Sky.Adventure.it"
     },
     "skyarte": {
       "name": "Sky Arte",
@@ -81,8 +81,8 @@
       "kid": "11182a6b78e28a52ffe2608ab6c0f56a",
       "key": "39454b9b64b2d2a1dfa0788c9087418a",
       "group": "Sky Cultura",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_986_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-arte-it.png",
+      "tvg_id": "Sky.Arte.it"
     },
     "skyatlantic": {
       "name": "Sky Atlantic",
@@ -90,8 +90,8 @@
       "kid": "1118914ad5e1ad67545475ca7460da2d",
       "key": "4ded218f45e7a9d9536f84fd940da992",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_226_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skyatlantic.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-atlantic-it.png",
+      "tvg_id": "Sky.Atlantic.it"
     },
     "skycinemaaction": {
       "name": "Sky Cinema Action",
@@ -99,8 +99,8 @@
       "kid": "11181097e8f05137f602bc551a2e32dd",
       "key": "8956d92daf04eba02dd3fd224dc99f6b",
       "group": "Sky Cinema",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_309_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skycinemaaction.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-action-it.png",
+      "tvg_id": "Sky.Cinema.Action.it"
     },
     "skycinemacomedy": {
       "name": "Sky Cinema Comedy",
@@ -108,8 +108,8 @@
       "kid": "111836971e38304c36c93efbf3fce921",
       "key": "9dcd57529ba3bce36cb46c384905a989",
       "group": "Sky Cinema",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_418_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skycinemacomedy.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-comedy-it.png",
+      "tvg_id": "Sky.Cinema.Comedy.it"
     },
     "skycinemadrama": {
       "name": "Sky Cinema Drama",
@@ -117,8 +117,8 @@
       "kid": "11187f0771eface703670c2e03f25c60",
       "key": "f1a4f55221438edfad33f71ce8d11e53",
       "group": "Sky Cinema",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_979_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skycinemadrama.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-drama-it.png",
+      "tvg_id": "Sky.Cinema.Drama.it"
     },
     "skycinemafamily": {
       "name": "Sky Cinema Family",
@@ -126,8 +126,8 @@
       "kid": "111887fc73ab50630ac4fc9c0ad8fa27",
       "key": "2ca2feaf3771e485ceb4a10aded58542",
       "group": "Sky Cinema",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_298_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skycinemafamily.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-family-it.png",
+      "tvg_id": "Sky.Cinema.Family.it"
     },
     "skycinemaromance": {
       "name": "Sky Cinema Romance",
@@ -135,8 +135,8 @@
       "kid": "1118b308d7860b5a2cfc1353e087aa9b",
       "key": "2ed82203afcaa7c0b6f1a7d7810abf57",
       "group": "Sky Cinema",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_670_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skycinemaromance.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-romance-it.png",
+      "tvg_id": "Sky.Cinema.Romance.it"
     },
     "skycinemastories": {
       "name": "Sky Cinema Stories",
@@ -144,8 +144,8 @@
       "kid": "1118b6884f019a3b4c9657a368e7e6d4",
       "key": "f567d90f134739c815029b7df7de8648",
       "group": "Sky Cinema",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-due-it.png",
+      "tvg_id": "Sky.Cinema.Collection.it"
     },
     "skycinemasuspense": {
       "name": "Sky Cinema Suspense",
@@ -153,8 +153,8 @@
       "kid": "1118d5ee90c8f505e7e5ce932720d4b0",
       "key": "a79b8f7c5b2f40889afcc2deb46d3728",
       "group": "Sky Cinema",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-suspense-it.png",
+      "tvg_id": "Sky.Cinema.Suspense.it"
     },
     "skycinemauno": {
       "name": "Sky Cinema Uno",
@@ -162,8 +162,8 @@
       "kid": "1118d613d7d337497a29ce3351f879ad",
       "key": "61c626c1e25c65d9443312fce14ed679",
       "group": "Sky Cinema",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_402_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skycinema1.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-uno-it.png",
+      "tvg_id": "Sky.Cinema.Uno.it"
     },
     "skycollection": {
       "name": "Sky Collection",
@@ -171,8 +171,8 @@
       "kid": "111846ad1b8bb11b3f11bf7f0f170701",
       "key": "2cffd969c3e289c667474fdacb23bc17",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_431_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skycollection.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-collection-it.png",
+      "tvg_id": "Sky.Cinema.Collection.it"
     },
     "skycrime": {
       "name": "Sky Crime",
@@ -180,8 +180,8 @@
       "kid": "11186bcffdc1c47dbeaaa7d557002197",
       "key": "c84de6e52919f9c47726e75e5788f6b9",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_249_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-crime-it.png",
+      "tvg_id": "Sky.Crime.it"
     },
     "skydocumentaries": {
       "name": "Sky Documentaries",
@@ -189,8 +189,8 @@
       "kid": "11183ce2812f8e6de76e9960791f373b",
       "key": "0b9a47e8dbd5bea92472cf8684a1bea7",
       "group": "Sky Documentari",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_877_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-documentaries-it.png",
+      "tvg_id": "Sky.Documentaries.it"
     },
     "skyinvestigation": {
       "name": "Sky Investigation",
@@ -198,8 +198,8 @@
       "kid": "1118372f0e5a5be838da4313ddcd13a7",
       "key": "fb22d7ff7b1988bc71d03d033e8f34de",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_686_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-investigation-it.png",
+      "tvg_id": "Sky.Investigation.it"
     },
     "skynature": {
       "name": "Sky Nature",
@@ -207,8 +207,8 @@
       "kid": "11188a583a6e01a1566d46ec707f5134",
       "key": "9b920f9b587e72c1edc914bff684c431",
       "group": "Sky Documentari",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_417_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-nature-it.png",
+      "tvg_id": "Sky.Nature.it"
     },
     "skyserie": {
       "name": "Sky Serie",
@@ -216,8 +216,8 @@
       "kid": "11183c4ad35abfd2fa351e15be2751f3",
       "key": "34d5e7802af83376b7869674e2692a28",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_684_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skyserie.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-serie-it.png",
+      "tvg_id": "Sky.Serie.it"
     },
     "skysport24": {
       "name": "Sky Sport 24",
@@ -225,8 +225,8 @@
       "kid": "1118b5e048c7175b6d9aa2dfc59f6527",
       "key": "ed6663451a181153b309ede6ff277667",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_35skysport24hddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skysport24.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-24-it.png",
+      "tvg_id": "Sky.Sport.24.it"
     },
     "skysport251": {
       "name": "Sky Sport 251",
@@ -234,8 +234,8 @@
       "kid": "11181e7f856e3b9eb0a315ca42e8d281",
       "key": "96bd93740aa0b2b3b10d6881bb806d1e",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport251.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.251.it"
     },
     "skysport252": {
       "name": "Sky Sport 252",
@@ -243,8 +243,8 @@
       "kid": "1118d145e562fe621718609536e2c92d",
       "key": "33654c2f6657e630328e2c52896e6d37",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport252.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.252.it"
     },
     "skysport253": {
       "name": "Sky Sport 253",
@@ -252,8 +252,8 @@
       "kid": "11183684f58c54e0f13e4968c616bc3b",
       "key": "f7d71eec2e88d6ff1ec927fef643f8b4",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport253.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.253.it"
     },
     "skysport254": {
       "name": "Sky Sport 254",
@@ -261,8 +261,8 @@
       "kid": "1118391dd81865c3f72d3bb51c50b129",
       "key": "4d1fdb4fc20d0bbe2cbadc793b1084bf",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport254.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.254.it"
     },
     "skysport255": {
       "name": "Sky Sport 255",
@@ -270,8 +270,8 @@
       "kid": "1118c2fc51580bcff0571f963bc3d5bd",
       "key": "985cf2b5fb1845a358a6e9cc48786a44",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport255.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.255.it"
     },
     "skysport256": {
       "name": "Sky Sport 256",
@@ -279,8 +279,8 @@
       "kid": "11186c42fd511dc12c3da4122b453f6b",
       "key": "d56ad21c13dc64fdb2430fe49469bd25",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport256.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.256.it"
     },
     "skysport257": {
       "name": "Sky Sport 257",
@@ -288,8 +288,8 @@
       "kid": "111836734e88acf2a270fc8e3f7d3578",
       "key": "61cc7fc2256407a650256c4db619607f",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport257.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.257.it"
     },
     "skysport258": {
       "name": "Sky Sport 258",
@@ -297,8 +297,8 @@
       "kid": "1118ede4ff3dc14b1858318fa927d58e",
       "key": "20d08f5946e156f8e8d4b292e2f113de",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport258.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.258.it"
     },
     "skysport259": {
       "name": "Sky Sport 259",
@@ -306,8 +306,8 @@
       "kid": "11186aab512affb67a780b197af15333",
       "key": "47b17943c1b07d6003b7187d149ee825",
       "group": "Sky Sport Calcio",
-      "logo": "",
-      "epg_id": "skysport259.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.259.it"
     },
     "skysportarena": {
       "name": "Sky Sport Arena",
@@ -315,8 +315,8 @@
       "kid": "1118cd980a96babac8705f8213671049",
       "key": "11f8242419118ba9315a5ea6a11eaf33",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_24skysportarenahddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skysportarena.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-arena-it.png",
+      "tvg_id": "Sky.Sport.Arena.it"
     },
     "skysportbasket": {
       "name": "Sky Sport Basket",
@@ -324,8 +324,8 @@
       "kid": "111862214aca32be3144b81e23ee7b97",
       "key": "931d73f5f8e1cc5c4ff8d242213a8694",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_764skysportnbahddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skysportnba.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-nba-it.png",
+      "tvg_id": "Sky.Sport.NBA.it"
     },
     "skysportcalcio": {
       "name": "Sky Sport Calcio",
@@ -333,8 +333,8 @@
       "kid": "11189447fcc21aec648fa3b105aa666e",
       "key": "586449edd352aa394e3a31cfcaf1bd1a",
       "group": "Sky Sport",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "tvg_id": "Sky.Sport.Calcio.it"
     },
     "skysportf1": {
       "name": "Sky Sport F1",
@@ -342,8 +342,8 @@
       "kid": "1118e78b7e486c21dc59fd57420c14ea",
       "key": "ec5151d5f9ab4afc6a28a70ff5b934e7",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_478skysportf1hddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skysportf1.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-f1-it.png",
+      "tvg_id": "Sky.Sport.F1.it"
     },
     "skysportgolf": {
       "name": "Sky Sport Golf",
@@ -351,8 +351,8 @@
       "kid": "1118364570d3f55bc86a23913e3bde97",
       "key": "b0e92072c31c12304984ca80f9e2dd10",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_234skysportdark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-golf-it.png",
+      "tvg_id": "Sky.Sport.Golf.it"
     },
     "skysportlegend": {
       "name": "Sky Sport Legend",
@@ -360,8 +360,8 @@
       "kid": "111855526563a80e43574ca7493a1fce",
       "key": "9d422e464fb08de23130b390ba8a8b25",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_234skysportdark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-legend-it.png",
+      "tvg_id": "Sky.Sport.Legend.it"
     },
     "skysportmax": {
       "name": "Sky Sport Max",
@@ -369,8 +369,8 @@
       "kid": "1118925820003b72988fe2d3c500ce58",
       "key": "6feac650a3747c78062072903de836e4",
       "group": "Sky Sport",
-      "logo": "",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-max-it.png",
+      "tvg_id": "Sky.Sport.Max.it"
     },
     "skysportmix": {
       "name": "Sky Sport Mix",
@@ -378,8 +378,8 @@
       "kid": "1118b1ad2c12768dacc13a81d1ee8107",
       "key": "92512e3c907527ff81678d08ace9c45d",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_877_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-mix-it.png",
+      "tvg_id": "Sky.Sport.Mix.it"
     },
     "skysportmotogp": {
       "name": "Sky Sport MotoGP",
@@ -387,8 +387,8 @@
       "kid": "11183e764b9543502f2a56f57a0e4f18",
       "key": "6c10a382f4715359f0c0ec9a2751c3da",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_483skysportmotogphddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skysportmotogp.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-motogp-it.png",
+      "tvg_id": "Sky.Sport.MotoGP.it"
     },
     "skysporttennis": {
       "name": "Sky Sport Tennis",
@@ -396,8 +396,8 @@
       "kid": "11180ff7bd5680d534cef8c33110b636",
       "key": "236d0731787ff055c604e7eac27dcadb",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_559skysporttennisdark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": ""
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-tennis-it.png",
+      "tvg_id": "Sky.Sport.Tennis.it"
     },
     "skysportuno": {
       "name": "Sky Sport Uno",
@@ -405,8 +405,8 @@
       "kid": "11186d53086ecc9e22e3b6af3ff9aebc",
       "key": "1e42dadbd0075fd69b6975fd8c9f8f7b",
       "group": "Sky Sport",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_23skysportunohddark/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skysport1.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-uno-it.png",
+      "tvg_id": "Sky.Sport.Uno.it"
     },
     "skyuno": {
       "name": "Sky Uno",
@@ -414,8 +414,8 @@
       "kid": "111882bdcd7601f4b24d2d973caf9edf",
       "key": "d5a964d3afa7a11cf32d08de1d54b701",
       "group": "Sky Intrattenimento",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_477_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skyuno.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-uno-it.png",
+      "tvg_id": "Sky.Uno.it"
     },
     "tg24": {
       "name": "Sky TG24",
@@ -423,8 +423,8 @@
       "kid": "1118a48358c744f5075ddd54441c9207",
       "key": "c0cd1f001bba58b1261d12ff04e4d5bd",
       "group": "Sky Informazione",
-      "logo": "https://pixel.disco.nowtv.it/logo/skychb_519_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT",
-      "epg_id": "skytg24.it"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-tg24-it.png",
+      "tvg_id": "Sky.TG24.it"
     }
   }
 }

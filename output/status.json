@@ -1,288 +1,336 @@
 {
-  "last_update": "2026-05-15T00:27:04.760168+00:00",
+  "last_update": "2026-05-15T01:26:57.659317+00:00",
   "total_channels": 47,
+  "epg_programs": 3913,
   "channels": [
     {
       "id": "boomerang",
       "name": "Boomerang",
       "group": "Sky Kids",
-      "manifest_expires": "1778797555"
+      "tvg_id": "Boomerang.it",
+      "has_epg": true
     },
     {
       "id": "cartoonnetwork",
       "name": "Cartoon Network",
       "group": "Sky Kids",
-      "manifest_expires": "1778794734"
+      "tvg_id": "Cartoon.Network.it",
+      "has_epg": true
     },
     {
       "id": "comedycentral",
       "name": "Comedy Central",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778842841"
+      "tvg_id": "Comedy.Central.it",
+      "has_epg": true
     },
     {
       "id": "deakids",
       "name": "DeAKids",
       "group": "Sky Kids",
-      "manifest_expires": "1778842894"
+      "tvg_id": "DeA.Kids.it",
+      "has_epg": true
     },
     {
       "id": "historychannel",
       "name": "History Channel",
       "group": "Sky Documentari",
-      "manifest_expires": "1778842841"
+      "tvg_id": "History.it",
+      "has_epg": true
     },
     {
       "id": "mtv",
       "name": "MTV",
       "group": "Sky Musica",
-      "manifest_expires": "unknown"
+      "tvg_id": "MTV.it",
+      "has_epg": true
     },
     {
       "id": "nickelodeon",
       "name": "Nickelodeon",
       "group": "Sky Kids",
-      "manifest_expires": "1778842883"
+      "tvg_id": "Nickelodeon.it",
+      "has_epg": true
     },
     {
       "id": "skyadventure",
       "name": "Sky Adventure",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778842883"
+      "tvg_id": "Sky.Adventure.it",
+      "has_epg": true
     },
     {
       "id": "skyarte",
       "name": "Sky Arte",
       "group": "Sky Cultura",
-      "manifest_expires": "1778788414"
+      "tvg_id": "Sky.Arte.it",
+      "has_epg": true
     },
     {
       "id": "skyatlantic",
       "name": "Sky Atlantic",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778842847"
+      "tvg_id": "Sky.Atlantic.it",
+      "has_epg": true
     },
     {
       "id": "skycinemaaction",
       "name": "Sky Cinema Action",
       "group": "Sky Cinema",
-      "manifest_expires": "1778842876"
+      "tvg_id": "Sky.Cinema.Action.it",
+      "has_epg": true
     },
     {
       "id": "skycinemacomedy",
       "name": "Sky Cinema Comedy",
       "group": "Sky Cinema",
-      "manifest_expires": "1778842850"
+      "tvg_id": "Sky.Cinema.Comedy.it",
+      "has_epg": true
     },
     {
       "id": "skycinemadrama",
       "name": "Sky Cinema Drama",
       "group": "Sky Cinema",
-      "manifest_expires": "1778842845"
+      "tvg_id": "Sky.Cinema.Drama.it",
+      "has_epg": true
     },
     {
       "id": "skycinemafamily",
       "name": "Sky Cinema Family",
       "group": "Sky Cinema",
-      "manifest_expires": "1778842854"
+      "tvg_id": "Sky.Cinema.Family.it",
+      "has_epg": true
     },
     {
       "id": "skycinemaromance",
       "name": "Sky Cinema Romance",
       "group": "Sky Cinema",
-      "manifest_expires": "1778823012"
+      "tvg_id": "Sky.Cinema.Romance.it",
+      "has_epg": true
     },
     {
       "id": "skycinemastories",
       "name": "Sky Cinema Stories",
       "group": "Sky Cinema",
-      "manifest_expires": "1778842888"
+      "tvg_id": "Sky.Cinema.Collection.it",
+      "has_epg": true
     },
     {
       "id": "skycinemasuspense",
       "name": "Sky Cinema Suspense",
       "group": "Sky Cinema",
-      "manifest_expires": "1778842846"
+      "tvg_id": "Sky.Cinema.Suspense.it",
+      "has_epg": true
     },
     {
       "id": "skycinemauno",
       "name": "Sky Cinema Uno",
       "group": "Sky Cinema",
-      "manifest_expires": "unknown"
+      "tvg_id": "Sky.Cinema.Uno.it",
+      "has_epg": true
     },
     {
       "id": "skycollection",
       "name": "Sky Collection",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778842846"
+      "tvg_id": "Sky.Cinema.Collection.it",
+      "has_epg": true
     },
     {
       "id": "skycrime",
       "name": "Sky Crime",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778795979"
+      "tvg_id": "Sky.Crime.it",
+      "has_epg": true
     },
     {
       "id": "skydocumentaries",
       "name": "Sky Documentaries",
       "group": "Sky Documentari",
-      "manifest_expires": "1778842850"
+      "tvg_id": "Sky.Documentaries.it",
+      "has_epg": true
     },
     {
       "id": "skyinvestigation",
       "name": "Sky Investigation",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778842884"
+      "tvg_id": "Sky.Investigation.it",
+      "has_epg": true
     },
     {
       "id": "skynature",
       "name": "Sky Nature",
       "group": "Sky Documentari",
-      "manifest_expires": "1778842892"
+      "tvg_id": "Sky.Nature.it",
+      "has_epg": true
     },
     {
       "id": "skyserie",
       "name": "Sky Serie",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778842852"
+      "tvg_id": "Sky.Serie.it",
+      "has_epg": true
     },
     {
       "id": "skysport24",
       "name": "Sky Sport 24",
       "group": "Sky Sport",
-      "manifest_expires": "1778842845"
+      "tvg_id": "Sky.Sport.24.it",
+      "has_epg": true
     },
     {
       "id": "skysport251",
       "name": "Sky Sport 251",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842849"
+      "tvg_id": "Sky.Sport.251.it",
+      "has_epg": true
     },
     {
       "id": "skysport252",
       "name": "Sky Sport 252",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842844"
+      "tvg_id": "Sky.Sport.252.it",
+      "has_epg": true
     },
     {
       "id": "skysport253",
       "name": "Sky Sport 253",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842845"
+      "tvg_id": "Sky.Sport.253.it",
+      "has_epg": true
     },
     {
       "id": "skysport254",
       "name": "Sky Sport 254",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842849"
+      "tvg_id": "Sky.Sport.254.it",
+      "has_epg": true
     },
     {
       "id": "skysport255",
       "name": "Sky Sport 255",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842851"
+      "tvg_id": "Sky.Sport.255.it",
+      "has_epg": true
     },
     {
       "id": "skysport256",
       "name": "Sky Sport 256",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842843"
+      "tvg_id": "Sky.Sport.256.it",
+      "has_epg": true
     },
     {
       "id": "skysport257",
       "name": "Sky Sport 257",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842854"
+      "tvg_id": "Sky.Sport.257.it",
+      "has_epg": true
     },
     {
       "id": "skysport258",
       "name": "Sky Sport 258",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778816474"
+      "tvg_id": "Sky.Sport.258.it",
+      "has_epg": true
     },
     {
       "id": "skysport259",
       "name": "Sky Sport 259",
       "group": "Sky Sport Calcio",
-      "manifest_expires": "1778842846"
+      "tvg_id": "Sky.Sport.259.it",
+      "has_epg": true
     },
     {
       "id": "skysportarena",
       "name": "Sky Sport Arena",
       "group": "Sky Sport",
-      "manifest_expires": "1778778988"
+      "tvg_id": "Sky.Sport.Arena.it",
+      "has_epg": true
     },
     {
       "id": "skysportbasket",
       "name": "Sky Sport Basket",
       "group": "Sky Sport",
-      "manifest_expires": "1778842887"
+      "tvg_id": "Sky.Sport.NBA.it",
+      "has_epg": true
     },
     {
       "id": "skysportcalcio",
       "name": "Sky Sport Calcio",
       "group": "Sky Sport",
-      "manifest_expires": "1778842850"
+      "tvg_id": "Sky.Sport.Calcio.it",
+      "has_epg": true
     },
     {
       "id": "skysportf1",
       "name": "Sky Sport F1",
       "group": "Sky Sport",
-      "manifest_expires": "1778842843"
+      "tvg_id": "Sky.Sport.F1.it",
+      "has_epg": true
     },
     {
       "id": "skysportgolf",
       "name": "Sky Sport Golf",
       "group": "Sky Sport",
-      "manifest_expires": "1778842847"
+      "tvg_id": "Sky.Sport.Golf.it",
+      "has_epg": true
     },
     {
       "id": "skysportlegend",
       "name": "Sky Sport Legend",
       "group": "Sky Sport",
-      "manifest_expires": "1778831787"
+      "tvg_id": "Sky.Sport.Legend.it",
+      "has_epg": true
     },
     {
       "id": "skysportmax",
       "name": "Sky Sport Max",
       "group": "Sky Sport",
-      "manifest_expires": "1778842847"
+      "tvg_id": "Sky.Sport.Max.it",
+      "has_epg": true
     },
     {
       "id": "skysportmix",
       "name": "Sky Sport Mix",
       "group": "Sky Sport",
-      "manifest_expires": "1778842886"
+      "tvg_id": "Sky.Sport.Mix.it",
+      "has_epg": true
     },
     {
       "id": "skysportmotogp",
       "name": "Sky Sport MotoGP",
       "group": "Sky Sport",
-      "manifest_expires": "1778842912"
+      "tvg_id": "Sky.Sport.MotoGP.it",
+      "has_epg": true
     },
     {
       "id": "skysporttennis",
       "name": "Sky Sport Tennis",
       "group": "Sky Sport",
-      "manifest_expires": "1778842877"
+      "tvg_id": "Sky.Sport.Tennis.it",
+      "has_epg": true
     },
     {
       "id": "skysportuno",
       "name": "Sky Sport Uno",
       "group": "Sky Sport",
-      "manifest_expires": "1778842858"
+      "tvg_id": "Sky.Sport.Uno.it",
+      "has_epg": true
     },
     {
       "id": "skyuno",
       "name": "Sky Uno",
       "group": "Sky Intrattenimento",
-      "manifest_expires": "1778842847"
+      "tvg_id": "Sky.Uno.it",
+      "has_epg": true
     },
     {
       "id": "tg24",
       "name": "Sky TG24",
       "group": "Sky Informazione",
-      "manifest_expires": "1778834725"
+      "tvg_id": "Sky.TG24.it",
+      "has_epg": true
     }
   ]
 }
