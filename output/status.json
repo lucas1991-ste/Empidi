@@ -1,336 +1,336 @@
 {
-  "last_update": "2026-05-15T06:34:18.199081+00:00",
+  "last_update": "2026-05-15T09:06:39.208545+00:00",
   "total_channels": 47,
-  "epg_programs": 3913,
+  "epg_programs": 7136,
   "channels": [
     {
       "id": "boomerang",
       "name": "Boomerang",
       "group": "Sky Kids",
       "tvg_id": "Boomerang.it",
-      "has_epg": true
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/boomerang-it.png"
     },
     {
       "id": "cartoonnetwork",
       "name": "Cartoon Network",
       "group": "Sky Kids",
-      "tvg_id": "Cartoon.Network.it",
-      "has_epg": true
+      "tvg_id": "CartoonNetwork.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/cartoon-network-it.png"
     },
     {
       "id": "comedycentral",
       "name": "Comedy Central",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Comedy.Central.it",
-      "has_epg": true
+      "tvg_id": "ComedyCentral.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-kingdom/comedy-central-uk.png"
     },
     {
       "id": "deakids",
       "name": "DeAKids",
       "group": "Sky Kids",
-      "tvg_id": "DeA.Kids.it",
-      "has_epg": true
+      "tvg_id": "DeAKids.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dea-kids-it.png"
     },
     {
       "id": "historychannel",
       "name": "History Channel",
       "group": "Sky Documentari",
       "tvg_id": "History.it",
-      "has_epg": true
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/history-channel-it.png"
     },
     {
       "id": "mtv",
       "name": "MTV",
       "group": "Sky Musica",
       "tvg_id": "MTV.it",
-      "has_epg": true
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/mtv-it.png"
     },
     {
       "id": "nickelodeon",
       "name": "Nickelodeon",
       "group": "Sky Kids",
       "tvg_id": "Nickelodeon.it",
-      "has_epg": true
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/nickelodeon-it.png"
     },
     {
       "id": "skyadventure",
       "name": "Sky Adventure",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Sky.Adventure.it",
-      "has_epg": true
+      "tvg_id": "SkyAdventure.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-adventure-it.png"
     },
     {
       "id": "skyarte",
       "name": "Sky Arte",
       "group": "Sky Cultura",
-      "tvg_id": "Sky.Arte.it",
-      "has_epg": true
+      "tvg_id": "SkyArte.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-arte-it.png"
     },
     {
       "id": "skyatlantic",
       "name": "Sky Atlantic",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Sky.Atlantic.it",
-      "has_epg": true
+      "tvg_id": "SkyAtlantic.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-atlantic-it.png"
     },
     {
       "id": "skycinemaaction",
       "name": "Sky Cinema Action",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Action.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaAction.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-action-it.png"
     },
     {
       "id": "skycinemacomedy",
       "name": "Sky Cinema Comedy",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Comedy.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaComedy.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-comedy-it.png"
     },
     {
       "id": "skycinemadrama",
       "name": "Sky Cinema Drama",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Drama.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaDrama.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-drama-it.png"
     },
     {
       "id": "skycinemafamily",
       "name": "Sky Cinema Family",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Family.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaFamily.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-family-it.png"
     },
     {
       "id": "skycinemaromance",
       "name": "Sky Cinema Romance",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Romance.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaRomance.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-romance-it.png"
     },
     {
       "id": "skycinemastories",
       "name": "Sky Cinema Stories",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Collection.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaDue.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-due-it.png"
     },
     {
       "id": "skycinemasuspense",
       "name": "Sky Cinema Suspense",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Suspense.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaSuspense.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-suspense-it.png"
     },
     {
       "id": "skycinemauno",
       "name": "Sky Cinema Uno",
       "group": "Sky Cinema",
-      "tvg_id": "Sky.Cinema.Uno.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaUno.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-uno-it.png"
     },
     {
       "id": "skycollection",
       "name": "Sky Collection",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Sky.Cinema.Collection.it",
-      "has_epg": true
+      "tvg_id": "SkyCinemaCollection.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-collection-it.png"
     },
     {
       "id": "skycrime",
       "name": "Sky Crime",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Sky.Crime.it",
-      "has_epg": true
+      "tvg_id": "SkyCrime.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-crime-it.png"
     },
     {
       "id": "skydocumentaries",
       "name": "Sky Documentaries",
       "group": "Sky Documentari",
-      "tvg_id": "Sky.Documentaries.it",
-      "has_epg": true
+      "tvg_id": "SkyDocumentaries.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-documentaries-it.png"
     },
     {
       "id": "skyinvestigation",
       "name": "Sky Investigation",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Sky.Investigation.it",
-      "has_epg": true
+      "tvg_id": "SkyInvestigation.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-investigation-it.png"
     },
     {
       "id": "skynature",
       "name": "Sky Nature",
       "group": "Sky Documentari",
-      "tvg_id": "Sky.Nature.it",
-      "has_epg": true
+      "tvg_id": "SkyNature.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-nature-it.png"
     },
     {
       "id": "skyserie",
       "name": "Sky Serie",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Sky.Serie.it",
-      "has_epg": true
+      "tvg_id": "SkySerie.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-serie-it.png"
     },
     {
       "id": "skysport24",
       "name": "Sky Sport 24",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.24.it",
-      "has_epg": true
+      "tvg_id": "SkySport24.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-24-it.png"
     },
     {
       "id": "skysport251",
       "name": "Sky Sport 251",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.251.it",
-      "has_epg": true
+      "tvg_id": "SkySport251.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport252",
       "name": "Sky Sport 252",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.252.it",
-      "has_epg": true
+      "tvg_id": "SkySport252.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport253",
       "name": "Sky Sport 253",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.253.it",
-      "has_epg": true
+      "tvg_id": "SkySport253.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport254",
       "name": "Sky Sport 254",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.254.it",
-      "has_epg": true
+      "tvg_id": "SkySport254.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport255",
       "name": "Sky Sport 255",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.255.it",
-      "has_epg": true
+      "tvg_id": "SkySport255.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport256",
       "name": "Sky Sport 256",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.256.it",
-      "has_epg": true
+      "tvg_id": "SkySport256.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport257",
       "name": "Sky Sport 257",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.257.it",
-      "has_epg": true
+      "tvg_id": "SkySport257.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport258",
       "name": "Sky Sport 258",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.258.it",
-      "has_epg": true
+      "tvg_id": "SkySport258.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysport259",
       "name": "Sky Sport 259",
       "group": "Sky Sport Calcio",
-      "tvg_id": "Sky.Sport.259.it",
-      "has_epg": true
+      "tvg_id": "SkySport259.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysportarena",
       "name": "Sky Sport Arena",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Arena.it",
-      "has_epg": true
+      "tvg_id": "SkySportArena.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-arena-it.png"
     },
     {
       "id": "skysportbasket",
       "name": "Sky Sport Basket",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.NBA.it",
-      "has_epg": true
+      "tvg_id": "SkySportNBA.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-nba-it.png"
     },
     {
       "id": "skysportcalcio",
       "name": "Sky Sport Calcio",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Calcio.it",
-      "has_epg": true
+      "tvg_id": "SkySportCalcio.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
     },
     {
       "id": "skysportf1",
       "name": "Sky Sport F1",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.F1.it",
-      "has_epg": true
+      "tvg_id": "SkySportF1.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-f1-it.png"
     },
     {
       "id": "skysportgolf",
       "name": "Sky Sport Golf",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Golf.it",
-      "has_epg": true
+      "tvg_id": "SkySportGolf.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-golf-it.png"
     },
     {
       "id": "skysportlegend",
       "name": "Sky Sport Legend",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Legend.it",
-      "has_epg": true
+      "tvg_id": "SkySportLegend.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-legend-it.png"
     },
     {
       "id": "skysportmax",
       "name": "Sky Sport Max",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Max.it",
-      "has_epg": true
+      "tvg_id": "SkySportMax.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-max-it.png"
     },
     {
       "id": "skysportmix",
       "name": "Sky Sport Mix",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Mix.it",
-      "has_epg": true
+      "tvg_id": "SkySportMix.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-mix-it.png"
     },
     {
       "id": "skysportmotogp",
       "name": "Sky Sport MotoGP",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.MotoGP.it",
-      "has_epg": true
+      "tvg_id": "SkySportMotoGP.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-motogp-it.png"
     },
     {
       "id": "skysporttennis",
       "name": "Sky Sport Tennis",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Tennis.it",
-      "has_epg": true
+      "tvg_id": "SkySportTennis.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-tennis-it.png"
     },
     {
       "id": "skysportuno",
       "name": "Sky Sport Uno",
       "group": "Sky Sport",
-      "tvg_id": "Sky.Sport.Uno.it",
-      "has_epg": true
+      "tvg_id": "SkySportUno.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-uno-it.png"
     },
     {
       "id": "skyuno",
       "name": "Sky Uno",
       "group": "Sky Intrattenimento",
-      "tvg_id": "Sky.Uno.it",
-      "has_epg": true
+      "tvg_id": "SkyUno.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-uno-it.png"
     },
     {
       "id": "tg24",
       "name": "Sky TG24",
       "group": "Sky Informazione",
-      "tvg_id": "Sky.TG24.it",
-      "has_epg": true
+      "tvg_id": "SkyTG24.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-tg24-it.png"
     }
   ]
 }
