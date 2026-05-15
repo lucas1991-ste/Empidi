@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-IPTV Playlist + EPG Generator - Sky/NowTV Channels via Amstaff API
-Genera playlist M3U con flussi MPD + clearkey e guida programmi XMLTV
-per canali Sky italiani. I link sono dinamici e vengono aggiornati ad ogni esecuzione.
+IPTV Playlist Generator - Sky/NowTV Channels via Amstaff API
+Genera playlist M3U con flussi MPD + clearkey per canali Sky italiani.
+I link sono dinamici e vengono aggiornati ad ogni esecuzione.
 
 Fonte stream: Amstaff API con credenziali Mandrakodi
-Fonte EPG: API ufficiale Sky (apid.sky.it/gtv/v1)
+Fonte EPG: iptv-epg.org (11 giorni, 53 canali Sky, aggiornato quotidianamente)
 Decrittazione: XOR con chiave -> JSON con manifest/kid/key
 
 CREDENZIALI: Tutte le credenziali sensibili vengono lette da variabili d'ambiente.
@@ -14,8 +14,7 @@ CREDENZIALI: Tutte le credenziali sensibili vengono lette da variabili d'ambient
 Formati di output:
   - playlist_kodi.m3u:     M3U per Sparkle TV / Kodi / UHF (KODIPROP)
   - playlist_tivimate.m3u: M3U per Tivimate/iMPlayer (formato pipe key)
-  - epg.xml:               Guida programmi XMLTV
-  - epg.xml.gz:            Guida programmi compressa (per app che lo supportano)
+  - epg.xml:               Guida programmi XMLTV (filtrata per i nostri canali)
 """
 
 import json
@@ -205,63 +204,63 @@ def get_group(ch_id):
     return GROUP_MAP.get(ch_id, "Sky")
 
 # ============================================================
-# EPG: MAPPING CANALI -> epgshare01
+# EPG: MAPPING CANALI -> iptv-epg.org
 # ============================================================
 
-# ID Amstaff -> tvg-id nel formato epgshare01 (es. "Sky.Uno.it")
-# Fonte EPG: https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz
+# ID Amstaff -> tvg-id nel formato iptv-epg.org (es. "SkyUno.it")
+# Fonte EPG: https://iptv-epg.org/files/epg-it.xml.gz (11 giorni, 53 canali Sky)
 TVG_ID_MAP = {
-    "tg24": "Sky.TG24.it",
-    "skyuno": "Sky.Uno.it",
-    "skyatlantic": "Sky.Atlantic.it",
-    "skyserie": "Sky.Serie.it",
-    "skycollection": "Sky.Cinema.Collection.it",
-    "skyinvestigation": "Sky.Investigation.it",
-    "skyadventure": "Sky.Adventure.it",
-    "skycrime": "Sky.Crime.it",
-    "comedycentral": "Comedy.Central.it",
-    "skydocumentaries": "Sky.Documentaries.it",
-    "skynature": "Sky.Nature.it",
+    "tg24": "SkyTG24.it",
+    "skyuno": "SkyUno.it",
+    "skyatlantic": "SkyAtlantic.it",
+    "skyserie": "SkySerie.it",
+    "skycollection": "SkyCinemaCollection.it",
+    "skyinvestigation": "SkyInvestigation.it",
+    "skyadventure": "SkyAdventure.it",
+    "skycrime": "SkyCrime.it",
+    "comedycentral": "ComedyCentral.it",
+    "skydocumentaries": "SkyDocumentaries.it",
+    "skynature": "SkyNature.it",
     "historychannel": "History.it",
-    "skyarte": "Sky.Arte.it",
+    "skyarte": "SkyArte.it",
     "mtv": "MTV.it",
-    "skysport24": "Sky.Sport.24.it",
-    "skysportuno": "Sky.Sport.Uno.it",
-    "skysportarena": "Sky.Sport.Arena.it",
-    "skysportf1": "Sky.Sport.F1.it",
-    "skysportmotogp": "Sky.Sport.MotoGP.it",
-    "skysportgolf": "Sky.Sport.Golf.it",
-    "skysporttennis": "Sky.Sport.Tennis.it",
-    "skysportmix": "Sky.Sport.Mix.it",
-    "skysportbasket": "Sky.Sport.NBA.it",
-    "skysportlegend": "Sky.Sport.Legend.it",
-    "skysportmax": "Sky.Sport.Max.it",
-    "skysportcalcio": "Sky.Sport.Calcio.it",
-    "skysport251": "Sky.Sport.251.it",
-    "skysport252": "Sky.Sport.252.it",
-    "skysport253": "Sky.Sport.253.it",
-    "skysport254": "Sky.Sport.254.it",
-    "skysport255": "Sky.Sport.255.it",
-    "skysport256": "Sky.Sport.256.it",
-    "skysport257": "Sky.Sport.257.it",
-    "skysport258": "Sky.Sport.258.it",
-    "skysport259": "Sky.Sport.259.it",
-    "skycinemauno": "Sky.Cinema.Uno.it",
-    "skycinemaaction": "Sky.Cinema.Action.it",
-    "skycinemacomedy": "Sky.Cinema.Comedy.it",
-    "skycinemadrama": "Sky.Cinema.Drama.it",
-    "skycinemafamily": "Sky.Cinema.Family.it",
-    "skycinemaromance": "Sky.Cinema.Romance.it",
-    "skycinemasuspense": "Sky.Cinema.Suspense.it",
-    "skycinemastories": "Sky.Cinema.Collection.it",
+    "skysport24": "SkySport24.it",
+    "skysportuno": "SkySportUno.it",
+    "skysportarena": "SkySportArena.it",
+    "skysportf1": "SkySportF1.it",
+    "skysportmotogp": "SkySportMotoGP.it",
+    "skysportgolf": "SkySportGolf.it",
+    "skysporttennis": "SkySportTennis.it",
+    "skysportmix": "SkySportMix.it",
+    "skysportbasket": "SkySportNBA.it",
+    "skysportlegend": "SkySportLegend.it",
+    "skysportmax": "SkySportMax.it",
+    "skysportcalcio": "SkySportCalcio.it",
+    "skysport251": "SkySport251.it",
+    "skysport252": "SkySport252.it",
+    "skysport253": "SkySport253.it",
+    "skysport254": "SkySport254.it",
+    "skysport255": "SkySport255.it",
+    "skysport256": "SkySport256.it",
+    "skysport257": "SkySport257.it",
+    "skysport258": "SkySport258.it",
+    "skysport259": "SkySport259.it",
+    "skycinemauno": "SkyCinemaUno.it",
+    "skycinemaaction": "SkyCinemaAction.it",
+    "skycinemacomedy": "SkyCinemaComedy.it",
+    "skycinemadrama": "SkyCinemaDrama.it",
+    "skycinemafamily": "SkyCinemaFamily.it",
+    "skycinemaromance": "SkyCinemaRomance.it",
+    "skycinemasuspense": "SkyCinemaSuspense.it",
+    "skycinemastories": "SkyCinemaDue.it",
     "nickelodeon": "Nickelodeon.it",
-    "deakids": "DeA.Kids.it",
+    "deakids": "DeAKids.it",
     "boomerang": "Boomerang.it",
-    "cartoonnetwork": "Cartoon.Network.it",
+    "cartoonnetwork": "CartoonNetwork.it",
 }
 
-# URL fonte EPG (epgshare01, aggiornata giornalmente)
-EPG_SOURCE_URL = "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+# Fonte EPG: iptv-epg.org (piu affidabile di epgshare01)
+EPG_SOURCE_URL = "https://iptv-epg.org/files/epg-it.xml.gz"
 
 
 # ============================================================
@@ -388,7 +387,6 @@ def generate_m3u_kodi(channels, epg_url=""):
     Genera M3U in formato compatibile con Sparkle TV, Kodi, UHF, etc.
     Usa il formato license_type + license_key (non drm_legacy).
     """
-    # Header con eventuale riferimento EPG
     header = "#EXTM3U"
     if epg_url:
         header += f' url-tvg="{epg_url}"'
@@ -445,13 +443,13 @@ def generate_m3u_pipe(channels, epg_url=""):
 
 
 # ============================================================
-# EPG: FILTRO DA FONTE ESTERNA (epgshare01)
+# EPG: FILTRO DA FONTE ESTERNA (iptv-epg.org)
 # ============================================================
 
 def download_and_filter_epg(channels, out_dir):
     """
-    Scarica EPG da epgshare01 e filtra solo i canali della nostra playlist.
-    Salva epg.xml e epg.xml.gz nella directory di output.
+    Scarica EPG da iptv-epg.org e filtra solo i canali della nostra playlist.
+    Salva epg.xml (non compresso) nella directory di output.
     Ritorna il numero di programmi trovati.
     """
     # Raccogli i tvg-id dei nostri canali risolti
@@ -467,7 +465,7 @@ def download_and_filter_epg(channels, out_dir):
 
     print(f"    Canali da cercare: {len(our_tvg_ids)}")
 
-    # Scarica EPG compresso (serve User-Agent browser)
+    # Scarica EPG compresso
     try:
         req = Request(EPG_SOURCE_URL, headers={
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
@@ -489,21 +487,18 @@ def download_and_filter_epg(channels, out_dir):
         return 0
 
     # Filtra: estrai solo <channel> e <programme> per i nostri tvg-id
-    # Usiamo regex per semplicita' e velocita' (evitiamo di caricare tutto in DOM)
-    import re as _re
-
-    # Estrai i channel elements che ci servono
-    channel_pattern = _re.compile(
+    # Usiamo regex per semplicita' e velocita'
+    channel_pattern = re.compile(
         r'<channel\s+id="([^"]+)"[^>]*>.*?</channel>',
-        _re.DOTALL
+        re.DOTALL
     )
-    programme_pattern = _re.compile(
+    programme_pattern = re.compile(
         r'<programme\s+[^>]*channel="([^"]+)"[^>]*>.*?</programme>',
-        _re.DOTALL
+        re.DOTALL
     )
 
     # Estrai header <tv>
-    tv_match = _re.search(r'(<tv[^>]*>)', xml_content)
+    tv_match = re.search(r'(<tv[^>]*>)', xml_content)
     tv_header = tv_match.group(1) if tv_match else '<tv>'
 
     # Filtra channels
@@ -529,17 +524,11 @@ def download_and_filter_epg(channels, out_dir):
         epg_filtered += prog + '\n'
     epg_filtered += '</tv>'
 
-    # Salva epg.xml
+    # Salva epg.xml (NON compresso, come richiesto)
     epg_path = os.path.join(out_dir, "epg.xml")
     with open(epg_path, "w", encoding="utf-8") as f:
         f.write(epg_filtered)
     print(f"    [OUTPUT] {epg_path} ({len(epg_filtered)} bytes)")
-
-    # Salva epg.xml.gz
-    epg_gz_path = os.path.join(out_dir, "epg.xml.gz")
-    with open(epg_gz_path, "wb") as f:
-        f.write(gzip.compress(epg_filtered.encode("utf-8")))
-    print(f"    [OUTPUT] {epg_gz_path}")
 
     print(f"    Canali EPG: {len(filtered_channels)}, Programmi: {len(filtered_programmes)}")
     return len(filtered_programmes)
@@ -561,13 +550,13 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     # ============================================================
-    # EPG: Scarica e filtra da epgshare01
+    # EPG: Scarica e filtra da iptv-epg.org
     # ============================================================
-    print(f"\n[4] Scaricamento EPG da epgshare01...")
+    print(f"\n[4] Scaricamento EPG da iptv-epg.org...")
     epg_count = download_and_filter_epg(channels, out_dir)
 
     # ============================================================
-    # PLAYLIST: Genera M3U con riferimento EPG
+    # PLAYLIST: Genera M3U con riferimento EPG (file .xml non compresso)
     # ============================================================
     epg_url = "epg.xml"
 
@@ -615,7 +604,7 @@ def main():
                 "name": ch["name"],
                 "group": ch.get("group", ""),
                 "tvg_id": ch.get("tvg_id", ""),
-                "has_epg": bool(ch.get("tvg_id")),
+                "logo": ch.get("logo", ""),
             }
             for ch in channels
         ],
