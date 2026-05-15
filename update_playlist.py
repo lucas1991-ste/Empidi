@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-IPTV Playlist Generator - Sky Italia Channels
+IPTV Playlist Generator - Canali Sky italiani
 Genera playlist M3U con flussi MPD + clearkey per canali Sky italiani.
 I link sono dinamici e vengono aggiornati ad ogni esecuzione.
 
+Fonte stream: API esterna con decrittazione XOR
 Fonte EPG: iptv-epg.org (11 giorni, 53 canali Sky, aggiornato quotidianamente)
 Decrittazione: XOR con chiave -> JSON con manifest/kid/key
 
@@ -31,22 +32,22 @@ from urllib.error import HTTPError, URLError
 # CONFIGURAZIONE - TUTTO DA ENV VARS
 # ============================================================
 
-API_LIST_URL = os.environ.get("API_LIST_URL", "")
-API_RESOLVE_URL = os.environ.get("API_RESOLVE_URL", "")
-API_AUTH = os.environ.get("API_AUTH", "")
-CRYPTO_KEY = os.environ.get("CRYPTO_KEY", "")
+STREAM_LIST_URL = os.environ.get("STREAM_LIST_URL", "")
+STREAM_RESOLVE_URL = os.environ.get("STREAM_RESOLVE_URL", "")
+STREAM_USER_AGENT = os.environ.get("STREAM_USER_AGENT", "")
+XOR_SECRET = os.environ.get("XOR_SECRET", "")
 
 def check_env():
     """Verifica che tutte le env vars obbligatorie siano impostate."""
     missing = []
-    if not API_LIST_URL:
-        missing.append("API_LIST_URL")
-    if not API_RESOLVE_URL:
-        missing.append("API_RESOLVE_URL")
-    if not API_AUTH:
-        missing.append("API_AUTH")
-    if not CRYPTO_KEY:
-        missing.append("CRYPTO_KEY")
+    if not STREAM_LIST_URL:
+        missing.append("STREAM_LIST_URL")
+    if not STREAM_RESOLVE_URL:
+        missing.append("STREAM_RESOLVE_URL")
+    if not STREAM_USER_AGENT:
+        missing.append("STREAM_USER_AGENT")
+    if not XOR_SECRET:
+        missing.append("XOR_SECRET")
     if missing:
         print(f"[ERRORE] Variabili d'ambiente mancanti: {', '.join(missing)}")
         print("Impostale nel tuo .env file o nelle GitHub Secrets.")
@@ -57,7 +58,7 @@ def check_env():
 # DEFINIZIONE CANALI
 # ============================================================
 
-# ID canale -> nome visualizzato
+# ID canale -> nome pulito
 CHANNEL_NAMES = {
     "tg24": "Sky TG24",
     "skyuno": "Sky Uno",
@@ -267,7 +268,7 @@ EPG_SOURCE_URL = "https://iptv-epg.org/files/epg-it.xml.gz"
 # ============================================================
 
 def xor_decrypt(data_b64, key):
-    """Decrittazione XOR dei dati dal provider."""
+    """Decrittazione XOR dei dati stream."""
     data = base64.b64decode(data_b64)
     key_bytes = key.encode()
     out = bytearray()
@@ -288,8 +289,8 @@ def fetch_url(url, headers=None, timeout=30):
 
 
 def get_listing_channels():
-    """Ottiene la lista dei canali dal provider (listing endpoint)."""
-    raw = fetch_url(API_LIST_URL, headers={"User-Agent": API_AUTH})
+    """Ottiene la lista dei canali dall'API (listing endpoint)."""
+    raw = fetch_url(STREAM_LIST_URL, headers={"User-Agent": STREAM_USER_AGENT})
     if not raw:
         return []
 
@@ -314,8 +315,8 @@ def get_listing_channels():
 
 def resolve_channel(ch_id):
     """Risolve un singolo canale ottenendo manifest URL + chiavi clearkey."""
-    url = API_RESOLVE_URL + ch_id
-    raw = fetch_url(url, headers={"User-Agent": API_AUTH}, timeout=15)
+    url = STREAM_RESOLVE_URL + ch_id
+    raw = fetch_url(url, headers={"User-Agent": STREAM_USER_AGENT}, timeout=15)
     if not raw:
         return None
 
@@ -323,7 +324,7 @@ def resolve_channel(ch_id):
         data = json.loads(raw)
         if "data" not in data:
             return None
-        decrypted = json.loads(xor_decrypt(data["data"], CRYPTO_KEY))
+        decrypted = json.loads(xor_decrypt(data["data"], XOR_SECRET))
         return {
             "manifest": decrypted["manifest"],
             "kid": decrypted["kid"],
@@ -584,7 +585,7 @@ def main():
         }
     stremio_json = json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(),
-        "source": "playlist-api",
+        "source": "iptv-playlist",
         "channel_count": len(channels),
         "channels": streams,
     }, indent=2, ensure_ascii=False)
