@@ -26,9 +26,9 @@ jobs:
 
       - name: Run playlist generator
         env:
-          AMSTAFF_LIST_URL: ${{ secrets.AMSTAFF_LIST_URL }}
-          AMSTAFF_RESOLVE_URL: ${{ secrets.AMSTAFF_RESOLVE_URL }}
-          AMSTAFF_USER_AGENT: ${{ secrets.AMSTAFF_USER_AGENT }}
+          STREAM_LIST_URL: ${{ secrets.STREAM_LIST_URL }}
+          STREAM_RESOLVE_URL: ${{ secrets.STREAM_RESOLVE_URL }}
+          STREAM_USER_AGENT: ${{ secrets.STREAM_USER_AGENT }}
           XOR_SECRET: ${{ secrets.XOR_SECRET }}
         run: |
           python3 update_playlist.py ./output
