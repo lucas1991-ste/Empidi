@@ -15,6 +15,7 @@ Formati di output:
   - playlist_kodi.m3u:     M3U per Sparkle TV / Kodi / UHF (KODIPROP)
   - playlist_tivimate.m3u: M3U per Tivimate/iMPlayer (formato pipe key)
   - epg.xml:               Guida programmi XMLTV (filtrata per i nostri canali)
+  - epg.xml.gz:            Guida programmi compressa (per app che lo supportano)
 """
 
 import json
@@ -23,7 +24,7 @@ import re
 import sys
 import os
 import gzip
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
@@ -262,6 +263,13 @@ TVG_ID_MAP = {
 # Fonte EPG: iptv-epg.org (piu affidabile di epgshare01)
 EPG_SOURCE_URL = "https://iptv-epg.org/files/epg-it.xml.gz"
 
+# URL pubblico dell'EPG su GitHub (per url-tvg nelle playlist)
+EPG_PUBLIC_URL = "https://raw.githubusercontent.com/lucas1991-ste/Empidi/refs/heads/main/output/epg.xml"
+
+# Fuso orario Italia (CEST = +02:00, CET = +01:00)
+# Usiamo +0200 fisso per semplicita' e massima compatibilita' con le app IPTV
+ITALY_TZ_OFFSET = "+0200"
+
 
 # ============================================================
 # FUNZIONI CORE - STREAM
@@ -446,10 +454,26 @@ def generate_m3u_pipe(channels, epg_url=""):
 # EPG: FILTRO DA FONTE ESTERNA (iptv-epg.org)
 # ============================================================
 
+def adjust_timezone(xml_string, tz_offset=ITALY_TZ_OFFSET):
+    """
+    Converte il fuso orario nei tag <programme> da +0000 a tz_offset.
+    Gli orari rimangono invariati (stesso valore numerico), cambia solo il timezone.
+    Esempio: start="20260516071500 +0000" -> start="20260516071500 +0200"
+    Questo significa che le 07:15 UTC diventano le 07:15 +0200 (ora locale italiana).
+    Le app IPTV che non gestiscono il timezone mostreranno gli orari corretti.
+    """
+    # Sostituisci +0000 con il fuso orario italiano negli attributi start/stop
+    result = re.sub(r'(start|stop)="(\d{14}) \+0000"',
+                    rf'\1="\2 {tz_offset}"',
+                    xml_string)
+    return result
+
+
 def download_and_filter_epg(channels, out_dir):
     """
     Scarica EPG da iptv-epg.org e filtra solo i canali della nostra playlist.
-    Salva epg.xml (non compresso) nella directory di output.
+    Converte il fuso orario da +0000 (UTC) a +0200 (CEST Italia).
+    Salva epg.xml e epg.xml.gz nella directory di output.
     Ritorna il numero di programmi trovati.
     """
     # Raccogli i tvg-id dei nostri canali risolti
@@ -515,20 +539,30 @@ def download_and_filter_epg(channels, out_dir):
         if ch_id in our_tvg_ids:
             filtered_programmes.append(m.group(0))
 
-    # Costruisci XML filtrato
-    epg_filtered = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    epg_filtered += tv_header + '\n'
+    # Converti fuso orario da +0000 a +0200 (Italia)
+    epg_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    epg_content += tv_header + '\n'
     for ch in filtered_channels:
-        epg_filtered += ch + '\n'
+        epg_content += ch + '\n'
     for prog in filtered_programmes:
-        epg_filtered += prog + '\n'
-    epg_filtered += '</tv>'
+        epg_content += prog + '\n'
+    epg_content += '</tv>'
 
-    # Salva epg.xml (NON compresso, come richiesto)
+    epg_content = adjust_timezone(epg_content)
+    print(f"    Fuso orario convertito: +0000 -> {ITALY_TZ_OFFSET}")
+
+    # Salva epg.xml
     epg_path = os.path.join(out_dir, "epg.xml")
     with open(epg_path, "w", encoding="utf-8") as f:
-        f.write(epg_filtered)
-    print(f"    [OUTPUT] {epg_path} ({len(epg_filtered)} bytes)")
+        f.write(epg_content)
+    print(f"    [OUTPUT] {epg_path} ({len(epg_content)} bytes)")
+
+    # Salva epg.xml.gz (compresso, per app che lo supportano)
+    epg_gz_path = os.path.join(out_dir, "epg.xml.gz")
+    with gzip.open(epg_gz_path, "wb") as f:
+        f.write(epg_content.encode("utf-8"))
+    gz_size = os.path.getsize(epg_gz_path)
+    print(f"    [OUTPUT] {epg_gz_path} ({gz_size} bytes)")
 
     print(f"    Canali EPG: {len(filtered_channels)}, Programmi: {len(filtered_programmes)}")
     return len(filtered_programmes)
@@ -556,9 +590,9 @@ def main():
     epg_count = download_and_filter_epg(channels, out_dir)
 
     # ============================================================
-    # PLAYLIST: Genera M3U con riferimento EPG (file .xml non compresso)
+    # PLAYLIST: Genera M3U con riferimento EPG da URL GitHub
     # ============================================================
-    epg_url = "epg.xml"
+    epg_url = EPG_PUBLIC_URL
 
     outputs = {
         "playlist_kodi.m3u": generate_m3u_kodi(channels, epg_url=epg_url),
