@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="epg.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/lucas1991-ste/Empidi/refs/heads/main/output/epg.xml"
 #EXTINF:-1 tvg-id="Boomerang.it" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/boomerang-it.png" group-title="Sky Kids",Boomerang
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118ba94e4aef8a14f6a0a8427eb25dc:a7d17a614e2ac297c248d9435c99d6e3
