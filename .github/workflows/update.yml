@@ -27,6 +27,7 @@ jobs:
       - name: Run playlist generator
         env:
           STREAM_LIST_URL: ${{ secrets.STREAM_LIST_URL }}
+          STREAM_LIST_URL_DAZN: ${{ secrets.STREAM_LIST_URL_DAZN }}
           STREAM_RESOLVE_URL: ${{ secrets.STREAM_RESOLVE_URL }}
           STREAM_USER_AGENT: ${{ secrets.STREAM_USER_AGENT }}
           XOR_SECRET: ${{ secrets.XOR_SECRET }}
