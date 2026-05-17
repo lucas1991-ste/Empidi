@@ -1,6 +1,9 @@
 {
-  "last_update": "2026-05-17T19:06:24.841311+00:00",
-  "total_channels": 47,
+  "last_update": "2026-05-17T22:39:34.834870+00:00",
+  "total_channels": 99,
+  "sky_channels": 47,
+  "dazn_channels": 26,
+  "sport_channels": 26,
   "epg_programs": 7789,
   "channels": [
     {
@@ -8,329 +11,792 @@
       "name": "Boomerang",
       "group": "Sky Kids",
       "tvg_id": "Boomerang.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/boomerang-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/boomerang-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "cartoonnetwork",
       "name": "Cartoon Network",
       "group": "Sky Kids",
       "tvg_id": "CartoonNetwork.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/cartoon-network-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/cartoon-network-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "comedycentral",
       "name": "Comedy Central",
       "group": "Sky Intrattenimento",
       "tvg_id": "ComedyCentral.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-kingdom/comedy-central-uk.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-kingdom/comedy-central-uk.png",
+      "stream_type": "sky"
     },
     {
       "id": "deakids",
       "name": "DeAKids",
       "group": "Sky Kids",
       "tvg_id": "DeAKids.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dea-kids-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dea-kids-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "historychannel",
       "name": "History Channel",
       "group": "Sky Documentari",
       "tvg_id": "History.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/history-channel-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/history-channel-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "mtv",
       "name": "MTV",
       "group": "Sky Musica",
       "tvg_id": "MTV.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/mtv-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/mtv-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "nickelodeon",
       "name": "Nickelodeon",
       "group": "Sky Kids",
       "tvg_id": "Nickelodeon.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/nickelodeon-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/nickelodeon-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skyadventure",
       "name": "Sky Adventure",
       "group": "Sky Intrattenimento",
       "tvg_id": "SkyAdventure.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-adventure-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-adventure-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skyarte",
       "name": "Sky Arte",
       "group": "Sky Cultura",
       "tvg_id": "SkyArte.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-arte-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-arte-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skyatlantic",
       "name": "Sky Atlantic",
       "group": "Sky Intrattenimento",
       "tvg_id": "SkyAtlantic.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-atlantic-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-atlantic-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemaaction",
       "name": "Sky Cinema Action",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaAction.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-action-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-action-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemacomedy",
       "name": "Sky Cinema Comedy",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaComedy.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-comedy-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-comedy-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemadrama",
       "name": "Sky Cinema Drama",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaDrama.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-drama-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-drama-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemafamily",
       "name": "Sky Cinema Family",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaFamily.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-family-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-family-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemaromance",
       "name": "Sky Cinema Romance",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaRomance.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-romance-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-romance-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemastories",
       "name": "Sky Cinema Stories",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaDue.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-due-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-due-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemasuspense",
       "name": "Sky Cinema Suspense",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaSuspense.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-suspense-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-suspense-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycinemauno",
       "name": "Sky Cinema Uno",
       "group": "Sky Cinema",
       "tvg_id": "SkyCinemaUno.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-uno-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-uno-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycollection",
       "name": "Sky Collection",
       "group": "Sky Intrattenimento",
       "tvg_id": "SkyCinemaCollection.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-collection-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-collection-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skycrime",
       "name": "Sky Crime",
       "group": "Sky Intrattenimento",
       "tvg_id": "SkyCrime.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-crime-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-crime-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skydocumentaries",
       "name": "Sky Documentaries",
       "group": "Sky Documentari",
       "tvg_id": "SkyDocumentaries.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-documentaries-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-documentaries-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skyinvestigation",
       "name": "Sky Investigation",
       "group": "Sky Intrattenimento",
       "tvg_id": "SkyInvestigation.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-investigation-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-investigation-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skynature",
       "name": "Sky Nature",
       "group": "Sky Documentari",
       "tvg_id": "SkyNature.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-nature-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-nature-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skyserie",
       "name": "Sky Serie",
       "group": "Sky Intrattenimento",
       "tvg_id": "SkySerie.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-serie-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-serie-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport24",
       "name": "Sky Sport 24",
       "group": "Sky Sport",
       "tvg_id": "SkySport24.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-24-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-24-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport251",
       "name": "Sky Sport 251",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport251.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport252",
       "name": "Sky Sport 252",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport252.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport253",
       "name": "Sky Sport 253",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport253.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport254",
       "name": "Sky Sport 254",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport254.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport255",
       "name": "Sky Sport 255",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport255.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport256",
       "name": "Sky Sport 256",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport256.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport257",
       "name": "Sky Sport 257",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport257.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport258",
       "name": "Sky Sport 258",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport258.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysport259",
       "name": "Sky Sport 259",
       "group": "Sky Sport Calcio",
       "tvg_id": "SkySport259.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportarena",
       "name": "Sky Sport Arena",
       "group": "Sky Sport",
       "tvg_id": "SkySportArena.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-arena-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-arena-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportbasket",
       "name": "Sky Sport Basket",
       "group": "Sky Sport",
       "tvg_id": "SkySportNBA.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-nba-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-nba-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportcalcio",
       "name": "Sky Sport Calcio",
       "group": "Sky Sport",
       "tvg_id": "SkySportCalcio.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportf1",
       "name": "Sky Sport F1",
       "group": "Sky Sport",
       "tvg_id": "SkySportF1.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-f1-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-f1-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportgolf",
       "name": "Sky Sport Golf",
       "group": "Sky Sport",
       "tvg_id": "SkySportGolf.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-golf-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-golf-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportlegend",
       "name": "Sky Sport Legend",
       "group": "Sky Sport",
       "tvg_id": "SkySportLegend.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-legend-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-legend-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportmax",
       "name": "Sky Sport Max",
       "group": "Sky Sport",
       "tvg_id": "SkySportMax.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-max-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-max-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportmix",
       "name": "Sky Sport Mix",
       "group": "Sky Sport",
       "tvg_id": "SkySportMix.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-mix-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-mix-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportmotogp",
       "name": "Sky Sport MotoGP",
       "group": "Sky Sport",
       "tvg_id": "SkySportMotoGP.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-motogp-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-motogp-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysporttennis",
       "name": "Sky Sport Tennis",
       "group": "Sky Sport",
       "tvg_id": "SkySportTennis.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-tennis-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-tennis-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skysportuno",
       "name": "Sky Sport Uno",
       "group": "Sky Sport",
       "tvg_id": "SkySportUno.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-uno-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-uno-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "skyuno",
       "name": "Sky Uno",
       "group": "Sky Intrattenimento",
       "tvg_id": "SkyUno.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-uno-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-uno-it.png",
+      "stream_type": "sky"
     },
     {
       "id": "tg24",
       "name": "Sky TG24",
       "group": "Sky Informazione",
       "tvg_id": "SkyTG24.it",
-      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-tg24-it.png"
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-tg24-it.png",
+      "stream_type": "sky"
+    },
+    {
+      "id": "dazn_1700_athletic_bilbao_celta_vigo",
+      "name": "17:00 Athletic Bilbao - Celta Vigo",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_atltico_madrid_girona",
+      "name": "17:00 Atlético Madrid - Girona",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_elche_getafe",
+      "name": "17:00 Elche - Getafe",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_laliga_multigol",
+      "name": "17:00 LaLiga Multigol",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_levante_maiorca",
+      "name": "17:00 Levante - Maiorca",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_osasuna_espanyol",
+      "name": "17:00 Osasuna - Espanyol",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_rayo_vallecano_villarreal",
+      "name": "17:00 Rayo Vallecano - Villarreal",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_real_oviedo_alavs",
+      "name": "17:00 Real Oviedo - Alavés",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_real_sociedad_valencia",
+      "name": "17:00 Real Sociedad - Valencia",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_siviglia_real_madrid",
+      "name": "17:00 Siviglia - Real Madrid",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_0826_zona_serie_a_enilive_lotta_champions",
+      "name": "08:26 Zona Serie A Enilive | Lotta Champions",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_0941_como_parma",
+      "name": "09:41 Como - Parma",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_0941_genoa_milan",
+      "name": "09:41 Genoa - Milan",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_0941_juventus_fiorentina",
+      "name": "09:41 Juventus - Fiorentina",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_0941_pisa_napoli",
+      "name": "09:41 Pisa - Napoli",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_0941_roma_lazio",
+      "name": "09:41 Roma - Lazio",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1141_inter_hellas_verona",
+      "name": "11:41 Inter - Hellas Verona",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1210_trentaquattresimapuntata_vamos",
+      "name": "12:10 Trentaquattresimapuntata | Vamos!",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1541_atalanta_bologna",
+      "name": "15:41 Atalanta - Bologna",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1700_inter_tv_la_festa_scudetto_dei_nerazzurri",
+      "name": "17:00 Inter TV | La festa Scudetto dei nerazzurri",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1756_zona_serie_a_enilive_lotta_salvezza",
+      "name": "17:56 Zona Serie A Enilive | Lotta salvezza",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1826_cagliari_torino",
+      "name": "18:26 Cagliari - Torino",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1826_sassuolo_lecce",
+      "name": "18:26 Sassuolo - Lecce",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1826_udinese_cremonese",
+      "name": "18:26 Udinese - Cremonese",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_1800_semifinali_playoff_andata_catanzaro_palermo",
+      "name": "18:00 Semifinali Playoff Andata | Catanzaro - Palermo",
+      "group": "DAZN Sport",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "dazn_ch_21_dazn_serie_b",
+      "name": "CH 21 [DAZN SERIE B]",
+      "group": "DAZN Serie B",
+      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "stream_type": "dazn"
+    },
+    {
+      "id": "sport_ch_01_izziespn",
+      "name": "CH 01 [IzziESPN]",
+      "group": "Sport Extra (Izzi TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_02_izziespn2",
+      "name": "CH 02 [IzziESPN2]",
+      "group": "Sport Extra (Izzi TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_03_bein3aus",
+      "name": "CH 03 [BEIN3AUS]",
+      "group": "Sport Extra (BeIN/OTT)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_04_eleven1",
+      "name": "CH 04 [ELEVEN1]",
+      "group": "Sport Extra (Eleven)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_05_eleven2",
+      "name": "CH 05 [ELEVEN2]",
+      "group": "Sport Extra (Eleven)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_06_cbsgolazo",
+      "name": "CH 06 [CBSgolazo]",
+      "group": "Sport Extra (CBS Golazo)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_07_ziggo2",
+      "name": "CH 07 [Ziggo2]",
+      "group": "Sport Extra (Ziggo)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_08_ziggo3",
+      "name": "CH 08 [Ziggo3]",
+      "group": "Sport Extra (Ziggo)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_10_bein1",
+      "name": "CH 10 [BEIN1]",
+      "group": "Sport Extra (BeIN/OTT)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_11_bein2",
+      "name": "CH 11 [BEIN2]",
+      "group": "Sport Extra (BeIN/OTT)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_12_fubotv",
+      "name": "CH 12 [FUBOTV]",
+      "group": "Sport Extra (BeIN/OTT)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_13_prime",
+      "name": "CH 13 [PRIME]",
+      "group": "Sport Extra (BeIN/OTT)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_14_setanta1",
+      "name": "CH 14 [SETANTA1]",
+      "group": "Sport Extra (Setanta)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_ch_15_setanta2",
+      "name": "CH 15 [SETANTA2]",
+      "group": "Sport Extra (Setanta)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_lbatv1",
+      "name": "LBATV1",
+      "group": "Sport Extra (LBA TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_lbatv2",
+      "name": "LBATV2",
+      "group": "Sport Extra (LBA TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_lbatv3",
+      "name": "LBATV3",
+      "group": "Sport Extra (LBA TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_lbatv4",
+      "name": "LBATV4",
+      "group": "Sport Extra (LBA TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_lbatv5",
+      "name": "LBATV5",
+      "group": "Sport Extra (LBA TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_supertennis_1",
+      "name": "SuperTennis 1",
+      "group": "Sport Extra (SuperTennis)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_supertennis_2",
+      "name": "SuperTennis 2",
+      "group": "Sport Extra (SuperTennis)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_supertennis_3",
+      "name": "SuperTennis 3",
+      "group": "Sport Extra (SuperTennis)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_supertennis_4",
+      "name": "SuperTennis 4",
+      "group": "Sport Extra (SuperTennis)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_nba_tv",
+      "name": "NBA TV",
+      "group": "Sport Extra (BeIN/OTT)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_paramount",
+      "name": "PARAMOUNT+",
+      "group": "Sport Extra (Prime/NBA)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
+    },
+    {
+      "id": "sport_seven_tv",
+      "name": "SEVEN TV",
+      "group": "Sport Extra (Seven TV)",
+      "tvg_id": "",
+      "logo": "",
+      "stream_type": "sport"
     }
   ]
 }

@@ -187,3 +187,254 @@ https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1779117202_f~0_g~1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118a48358c744f5075ddd54441c9207:c0cd1f001bba58b1261d12ff04e4d5bd
 https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1779117181_f~0_g~1_s~fb58c7f6-945e-48f1-bdb3-f031ed80f5c0_u~34ad4d27b4be8814a226e5d1988e5ef2672e52641e8a9810966a6836e1d0b47e6d7cd465a11781e84822643f5d38a1dc_k~A_l~50_x~c1d6c18f6f7e64378e1a12a3bf8b58f6/nowitlin2/Content/CMAF_CTR_H1/Live/channel(tg24)/master_2hr-all.mpd
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Athletic Bilbao - Celta Vigo
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036615~exp%3D1779123015~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D9672ee46ea7f77015ac00d661045126fa27d6babf489d18af66a11d15a05f1eb~hmac%3Dc183f4b2321c211973b71b22c035d77ece353ef0419380fd3387dd6dd7239ea4/lktm2ikgiluv1xvz80u9jplsp/web/stream.mpd?channel=6728&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Atlético Madrid - Girona
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=26a5c664d47855798bb53c6b3b54ca1f:2a15a74c2bb859f8e72cb89f13d83f03
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036603~exp%3D1779123003~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D7c2b035e359238a921b8826e09f13635f80d6b07e60f5d40fbddb281b96228a5%23wm%3D0~hmac%3Da24afbc2de51b6e5d3e0f5ad230ddbe74014b088430e512c332d2d2556168139/d9r2relqr38q15r3975w2pc65/web/stream.mpd?channel=6915&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Elche - Getafe
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036614~exp%3D1779123014~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D952e7731b4b23306ecd0b10332fb9947225643437f76d0099f68cf0fb8f1bf03~hmac%3D12f5da5abaec3bf5a2347618a98068fd0cadf12dc068dbadd511564e2ee39d31/w4v1l5n9ukm414jgagxyftole/web/stream.mpd?channel=6751&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 LaLiga Multigol
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=07db40e0948e5f0eb497da79d7ac24c0:89a67f00036a7efa168cc04fe9ad7feb
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-deit-livedazn.daznedge.net/@tend%3A1779123606~geo%3AIT~asn%3A16232~path%3A1_1_b30f7be7af3d80eb8a032cef87f978d9ed3c077f2950a538ad622e02013b2612~id%3A9827c3cf91d3~tk3%3A9b47791fff1a3158c36a754952e25d4e6aab3ce9aa51da29321a7c3ca7afd1eb/1fkj4pr27mm471tlv1eo69p0g2/web/stream.mpd?channel=3235&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Levante - Maiorca
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036618~exp%3D1779123018~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Dcd5e1c80023a15b6e1ed0787f4aed868962eac6f12f31181f709cb7df4ac449f~hmac%3D659cd6c3114c465ccc189d8dc0bfc70c658b861a75db86d3cb16aee15fe786c0/pcco1rdabi3016xhpl8ar8976/web/stream.mpd?channel=6729&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Osasuna - Espanyol
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036617~exp%3D1779123017~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Dfc00873edb3e26128de25558747bdb0b4ecd1d0324d6ff00901a22cc41008d5c~hmac%3D4cfe2129ea4e38422853ee61caf6509a1f93e814b00eaf523232460540e508a6/y94jx9yqr6711bpa9qulq0bg1/web/stream.mpd?channel=6730&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Rayo Vallecano - Villarreal
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=bfb9a807ccfc57fcb85c9988ba7a3d5e:c865c6c45a905e4ad4ec1976490f9a95
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036610~exp%3D1779123010~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D21a6defe55dfc57c656f8c46e6327bfe48ededa8b023f0ca59e931858fd9a99b%23wm%3D0~hmac%3Db6850993f7478f43c77f2aca8e3f5b7bd0febf4b9a34598c407ab797635b1b51/emc8je7lgszh1gz2kk7kjavjk/web/stream.mpd?channel=6925&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Real Oviedo - Alavés
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036612~exp%3D1779123012~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Da364e145746aaf56c231b9602d65550e40bf1707393f661d50860c399e4c5a97~hmac%3D282cd933efdbbda2e9e4387c0f1775c2e263cd6c8214bd11aad47b5e647e52fb/1uxbc3rru2bjx1ioqtfdjqm5dr/web/stream.mpd?channel=6740&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Real Sociedad - Valencia
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=e237483356e65592997cc26fab3b66a8:e337c4f4670870677197abef2da6e14c
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036608~exp%3D1779123008~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D5ccc103d34cbc0bbe1d6fc885933c14cd2daf033c72b545b934a8d2e9c8dda4c%23wm%3D0~hmac%3Db25df30356627767775681c9afa73584f605811a57b682b4d0506869af9723b1/18opc6wtjy2o11lmvpj5qh2ye0/web/stream.mpd?channel=6933&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Siviglia - Real Madrid
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6acc08f03b1f5c35af86bd3568175346:203e9af858a23d5e9bc51dea191cde7d
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036605~exp%3D1779123005~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D7524120e0f62b36261c1210e7ef1222cb295eecaa0a7eddfe7393937c862ebdd%23wm%3D0~hmac%3D9dc5a4925052f5d4fdcb667b5d28118ebaa0468e320a1bc1225d28fd6bf66434/11rjid58fj41s1a05obd14dm8a/web/stream.mpd?channel=6946&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",08:26 Zona Serie A Enilive | Lotta Champions
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=38272cf3ccf853e5b809247f86239a20:34582f4595503335642c73253efbdf47
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779006603~exp%3D1779093003~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Db314bda19ec5741dc9e936e9c521b0c613a3d181c738ec865566e64d49922167%23wm%3D0~hmac%3D72ba4f9b1f11ad4b4532a2b71c83b0a5b135cea2e389ee930c24342597ddd80c/19o3hgcp4ohwuzytbvpjvfg72/web/stream.mpd?channel=1345&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",09:41 Como - Parma
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=dc37127a0dee50db8e26be5fc3031e19:f5aa7f3285bc42ab2eba754013b3b7c6
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779011407~exp%3D1779097807~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3De1004e73a6e8dfe5d342a27d77f784b476a2a93bbeadcb9c7b755376d80c1271%23wm%3D0~hmac%3Dcb72ffda11d34254e8ad32b8d8b0d81c7e3c5d9cb244f7a08e7404844e90dc5c/vojiitby7tg815rv36kgxyhg2/web/stream.mpd?channel=1948&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",09:41 Genoa - Milan
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=70ef724595885f3e8675eb9e4d973269:c88e651e53b62dd364ccc1cd31f55789
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779011403~exp%3D1779097803~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D07d02ddc2c086694ba1ef698990f2b041a3ef7d73e64399beb76bded7e67a4a8%23wm%3D0~hmac%3Dbafff5361d6e020a1c950c6869e7d5247b998816c6af1f70440ebd7d59d0f6a6/186pe5ovyip7ez56nfh970ro0/web/stream.mpd?channel=1381&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",09:41 Juventus - Fiorentina
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a4da8ec43f815458a516d2c8457fa9ea:d4466db7099a1f2f4d6b9d29dd07a1cd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779011105~exp%3D1779097505~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D77f58ff21946a92bc01ed8a0888a801354cde09c13db6c3c35dd86583a2d8a0c%23wm%3D0~hmac%3D6c41f8c4ac184c615a542170e1cf7f56c5710e54aaa77938175f832e39e3aba9/czumbrkzuwz7131y0etyt6600/web/stream.mpd?channel=1389&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",09:41 Pisa - Napoli
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=9f1f5cfc732858a4af1d74300412eb7a:65247fda913e82dfebf8fe80453a35e3
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779011405~exp%3D1779097805~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D3e301dfb8f5243515b4019a3a2739df73d2012b907422a04b27260a628693481%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D2eaacc8283d259cf2f6c9f42863c68191155d849667e361f7918b90062a03eb9/1bpevxx7hp10e19os4l6pa1lz5/web/stream.mpd?channel=1382&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",09:41 Roma - Lazio
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5cd76b4876fb5bd3accedd445f314027:b8234f0da3369a23124df13dba10ed05
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779011103~exp%3D1779097503~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D9143b836deec5dbe2f8469ccf3927402775e467e6a7e5f21fd0995e03c4cb26b%23wm%3D0~hmac%3D0d93c9d62da99dab32f72eef8a4c8c8ec9702720843b8e40e3c87d0676c58db1/1567b115zqci01vmplhyxb7n1n/web/stream.mpd?channel=1347&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",11:41 Inter - Hellas Verona
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cdceaa45ddba5fafbb229e55913cac2f:3943de71357bcca0636ecd30daae4435
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779018303~exp%3D1779104703~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D4b76c8325cb5fbaea055078b2cff26381cac77b8a6e8e5b9f7f08a775b2944fc%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D8a8a9d6f76aa4e393748d43d827024fdd978d1df62f0bdca089e98776fa92734/svbk1z9rizs157ycz3irsn2n/web/stream.mpd?channel=1388&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",12:10 Trentaquattresimapuntata | Vamos!
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=25751c9269045825a40d173b04849822:7439cd8b56439d47f5ff6a140af7077f
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779019804~exp%3D1779106204~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3De8a0ee487d297b87545a84d037f01633feb62eb2efb84e6b6db39314e40e99c0%23wm%3D0~hmac%3Dc14ff0124b9e0d3d5d02cddc8fa9a60853c1f0795d9d24626517e802c957a9d0/1764iu6z83bws181lffimx0myo/web/stream.mpd?channel=1946&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",15:41 Atalanta - Bologna
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5cf9bb95712951d1beffcaa362dee3c9:f53e42d1ba1d0206153d6989ab00822c
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779032703~exp%3D1779119103~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D4da63313326e55fe8a77799cad545db3d1347988ccabf31a98d7043a23423c15%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D44f9b755eafb097ea4e9ab19d44512a28db779a0bf20843a516341c6643f06c9/14e4zs1ig9xxk1bj6vg1if9o5l/web/stream.mpd?channel=1381&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:00 Inter TV | La festa Scudetto dei nerazzurri
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5f9a9f850c065d2e9fbdf2b057137016:d06a94b10de6aac2ea75171a08357eeb
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779037203~exp%3D1779123603~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D40fbf3fe728b7468c21cf9dca8d6ae2d03b2a4cd76ba332a5c14c967224596f1%23wm%3D0~hmac%3Dac4a1bd688c7d4e233b2b2c147efdf1bdd3d9d22281b181c77e597c7c7e3cdfb/1qpkdm8igx9sv14eibwsvpk34k/web/stream.mpd?channel=3223&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",17:56 Zona Serie A Enilive | Lotta salvezza
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a0159bf4d7db57d28973d3f0f124e46d:689129fb8f76384685313c77cbc7bd8b
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779040805~exp%3D1779127205~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D235edec50a9ea60d89e0e3cab3f45939be17c88498a266e66d5b72073f858306%23wm%3D0~hmac%3Dfe24f06fed7d39f96a2fddf921e641d5c0a50f2059d7f65a87eb2960dc64d603/oayyvcb8060zz76669hxqzcc/web/stream.mpd?channel=1340&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",18:26 Cagliari - Torino
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=93dbd72ecd015e47adc7a10e991eeca0:7103d8224c3c58a73fa6b937d4ff975e
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779042615~exp%3D1779129015~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D4d3c0fc6d852f1bd2ff2fcd41735d51a66f4dcc92513d6f3a5c37b563d5d794f%23wm%3D0~hmac%3D09b8524568bac6927ad96cbf1d5d58d30ba199763a85a6383b62436459c9f051/1tubx2i5sdt3y15q0txtm1h0um/web/stream.mpd?channel=1348&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",18:26 Sassuolo - Lecce
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d21a543c2edc526cb81527072e859b15:7440224ed116c74919121cd890754a0f
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779042603~exp%3D1779129003~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D9209317c9c6d859a31a2d58e787830139349da9dc84516f313150165f1fe1a11%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D76db8897b184cefc16cec7da62d1bf41bf3ee2bef01e5859b63064d8288827a4/1so31plu4d94s1ik13o8goucje/web/stream.mpd?channel=1382&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",18:26 Udinese - Cremonese
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=86b7bcc7b71e5f5aa558ed59ece50805:73ceb86051a97940ae617a93f777b9af
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779042612~exp%3D1779129012~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D516bd9939f9441ad1289c86beb9408cf640fd339d5ee374346ae2d76d829f6d7%23wm%3D0~hmac%3Db5ae06a155a1e953ea9679273040e151deef8ea1d38ad94da1bef19d4fba60e7/173fcqsbuo03119ebj1fgokj81/web/stream.mpd?channel=1347&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Sport",18:00 Semifinali Playoff Andata | Catanzaro - Palermo
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=2c4da5727eed556f8e571e4189a14d5b:c84cd86d659bb62cc72b18e11aa373c0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla%2F5.0%20%28Web0S%3B%20Linux%2FSmartTV%29%20AppleWebKit%2F537.41%20%28KHTML%2C%20like%20Gecko%29%20Large%20Screen%20Safari%2F537.41%20LG%20Browser%2F7.00.00%28LGE%3B%20WEBOS1%3B%2005.06.10%3B%201%29%3B%20webOS.TV-2014%3B%20LG%20NetCast.TV-2013%20Compatible%20%28LGE%2C%20WEBOS1%2C%20wireless%29&Referer=https%3A%2F%2Fwww.dazn.com%2F&Origin=https%3A%2F%2Fwww.dazn.com
+https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779040203~exp%3D1779126603~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D09ccc49a7850436600e653aa66a74a901840ae08f05b9e870909be16cd3d0a9c%23wm%3D0~hmac%3Dd422f7df6f4e0177d67cdc948cd31be01786ce5b4254a04f87aea0b86949e6ef/1oqyogvmwcukk1tie3780h3ssl/web/stream.mpd?channel=3956&mta=it&outlet=dazn-italy&plang=it
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png" group-title="DAZN Serie B",CH 21 [DAZN SERIE B]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=11c83f71744e40209ed12b1ce234d055:83279bd86c8f71656440af1abaf43f0a
+https://dctv.mocdn.tv/out/v1/53b5ed79722b4b23932dd86262242e03/manifest_L1.mpd
+#EXTINF:-1 group-title="Sport Extra (Izzi TV)",CH 01 [IzziESPN]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=3fb8167957692836eca1464b7f952b45:f31042e8167eb4b49ce8117c9e5f1e85
+https://aca-live-ott.izzigo.tv/6/out/u/dash/ESPNHDH265/default.mpd
+#EXTINF:-1 group-title="Sport Extra (Izzi TV)",CH 02 [IzziESPN2]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=faa2d2197cc44dc154650bbacb0dc238:9859d70c856660e20bbe6896f9cd3048
+https://aca-live-ott.izzigo.tv/7/out/u/dash/ESPN2HDH265/default.mpd
+#EXTINF:-1 group-title="Sport Extra (BeIN/OTT)",CH 03 [BEIN3AUS]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (Eleven)",CH 04 [ELEVEN1]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=751db0bb03145084973c6cf9c85fa16e:6571153c39eed18c29cdc63eb83c553a,4853dbe4c4cf51f3ba95424c6e6f69c7:39c0346198bc9b1614eb319115afdb84,fd9b5f8ae64a51edacd4f245ef515287:c867d24646b170b5c0e0556b56b291d7
+https://lineartv-cdn.t-mobile.pl/bpk-tv/elevensports1/default/index.mpd
+#EXTINF:-1 group-title="Sport Extra (Eleven)",CH 05 [ELEVEN2]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a118a928ea39552f976c8fad437f71ad:f58fb7a53ee86de9d0b9823446ba9756,78f826af752f54ddbc4ad9959ff2a42d:c1479ffada263000730d627a989e96ab,95c2aefadb7e522c9deeed393207f853:16e857224e16ab01a3c549212cdbdbb8
+https://lineartv-cdn.t-mobile.pl/bpk-tv/elevensports2/default/index.mpd
+#EXTINF:-1 group-title="Sport Extra (CBS Golazo)",CH 06 [CBSgolazo]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://netskrt.live.pv-cdn.net/OTTB/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (Ziggo)",CH 07 [Ziggo2]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=3cfa8625f650406ebf6a4d1ea737f572:0534e747c70b364aa7210e1bf3191df0
+https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EOhA1DF4svOZppKxb-t-Ngw144cce44121c63284a33d5453493e5c8%7E1_Fmlu5PevHMYnEi9Z_HX2goKAd0VHSuxZMoIcAXcawYvG1meqGp2eQ2Ibhjvh7e59e7f6df3d57f23a32024ad67f0f19dc%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601013140%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601013140%2C3103_SP1V%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717205500296&RTS=1717205500&from=11&hms_devid=579&online=1717205500&mag_hms=579
+#EXTINF:-1 group-title="Sport Extra (Ziggo)",CH 08 [Ziggo3]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=4dbea4b5713a4aa1ae3a2544cd522fc7:a8323ea99b2d6200a48e1bc27322d548
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EyVi0dMX4icO5Ka9e92EQfg8812e1c1044f7d357066472e3ee99ef4%7E2dRB9E-vDtoAbYl169LbcJpxUgWVJtbeU_PlhGfNUflphvljOb5VaEhxruETYG9qcccaf5c5b655bf7504ed7ec5a1dd798f%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601013401%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601013401%2C3103_SP1G%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717205641752&RTS=1717205641&from=16&hms_devid=538&online=1717205641&mag_hms=538
+#EXTINF:-1 group-title="Sport Extra (BeIN/OTT)",CH 10 [BEIN1]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281
+https://aba5sdmaaaaaaaamooyrewxky2c4j.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (BeIN/OTT)",CH 11 [BEIN2]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (BeIN/OTT)",CH 12 [FUBOTV]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
+https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (BeIN/OTT)",CH 13 [PRIME]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f159241d40e659d58e81bc17ca30da31:6b7fe24f7a16343bd447b0b30f68b7b2
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rlisfyx9vd/out/v1/61b8f61b22ac469297cbd4f1224f0ec8/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (Setanta)",CH 14 [SETANTA1]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab2332442854e62b0018eec3ee58484:37fdee8b6eef5c96001e8c6fc47bfc08
+https://tr.live.cdn.cgates.lt/live/dash/561002/index.mpd
+#EXTINF:-1 group-title="Sport Extra (Setanta)",CH 15 [SETANTA2]
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=9552bcbabfbd4ac19744422143bfb875:e6daacaced7eba147d2b667441060a4f
+https://tr.live.cdn.cgates.lt/live/dash/561504/index.mpd
+#EXTINF:-1 group-title="Sport Extra (LBA TV)",LBATV1
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1dc8e43978703e1cb83ec7baec4a524f:1294fa253a7deae7edb38532b6719acd
+https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-01-prd-l-v2/dash-ch-01-prd-l-hd/index.mpd
+#EXTINF:-1 group-title="Sport Extra (LBA TV)",LBATV2
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=bc0dd629d4833b029bdd4d80a61f7b0d:75ec4be73212e306da2f201dbf41495a
+https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-02-prd-l-v2/dash-ch-02-prd-l-hd/index.mpd
+#EXTINF:-1 group-title="Sport Extra (LBA TV)",LBATV3
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=99f90205c24c319db57438296a95cea5:aaec695c88692ac9deb0c0a71a0aeb89
+
+https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-03-prd-l-v2/dash-ch-03-prd-l-hd/index.mpd
+#EXTINF:-1 group-title="Sport Extra (LBA TV)",LBATV4
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=744207283a9133ddb9ea79af52801893:d119b941bb2e1ec1cd46dbd7c5c3483e
+https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-04-prd-l-v2/dash-ch-04-prd-l-hd/index.mpd
+#EXTINF:-1 group-title="Sport Extra (LBA TV)",LBATV5
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=4e22677e8aec3c93b92e9d45d2bca6de:764ce6e01d256388999b2f935b9c08a1
+https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-05-prd-l-v2/dash-ch-05-prd-l-hd/index.mpd
+#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 1
+https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd
+#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 2
+https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd
+#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 3
+https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd
+#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 4
+https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd
+#EXTINF:-1 group-title="Sport Extra (BeIN/OTT)",NBA TV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=4ee9b41e5053ef434c13dbb783df9e32:a275236600bfaedf230286f7b71b0a99
+https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/qio4cutx9r/out/v1/c89ef71f801b42b7abe65c7777adc6c4/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (Prime/NBA)",PARAMOUNT+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd
+#EXTINF:-1 group-title="Sport Extra (Seven TV)",SEVEN TV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000000000000000000000000034730a:19bfb83e0e0f40f6eef4eccedbfa7bb8
+https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(4s)/manifest.mpd

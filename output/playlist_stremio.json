@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-17T19:06:24.840747+00:00",
+  "updated": "2026-05-17T22:39:34.833747+00:00",
   "source": "iptv-playlist",
-  "channel_count": 47,
+  "channel_count": 99,
   "channels": {
     "boomerang": {
       "name": "Boomerang",
@@ -10,7 +10,8 @@
       "key": "a7d17a614e2ac297c248d9435c99d6e3",
       "group": "Sky Kids",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/boomerang-it.png",
-      "tvg_id": "Boomerang.it"
+      "tvg_id": "Boomerang.it",
+      "stream_type": "sky"
     },
     "cartoonnetwork": {
       "name": "Cartoon Network",
@@ -19,7 +20,8 @@
       "key": "eb3517c592b7774693a2b30e4b39e461",
       "group": "Sky Kids",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/cartoon-network-it.png",
-      "tvg_id": "CartoonNetwork.it"
+      "tvg_id": "CartoonNetwork.it",
+      "stream_type": "sky"
     },
     "comedycentral": {
       "name": "Comedy Central",
@@ -28,7 +30,8 @@
       "key": "c48d5ac4621d7738f8442b6476618705",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-kingdom/comedy-central-uk.png",
-      "tvg_id": "ComedyCentral.it"
+      "tvg_id": "ComedyCentral.it",
+      "stream_type": "sky"
     },
     "deakids": {
       "name": "DeAKids",
@@ -37,7 +40,8 @@
       "key": "779ac5495ac22c6458b6f705c46b9aef",
       "group": "Sky Kids",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dea-kids-it.png",
-      "tvg_id": "DeAKids.it"
+      "tvg_id": "DeAKids.it",
+      "stream_type": "sky"
     },
     "historychannel": {
       "name": "History Channel",
@@ -46,7 +50,8 @@
       "key": "a8a2fa68d6803452537b7862503f7b8b",
       "group": "Sky Documentari",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/history-channel-it.png",
-      "tvg_id": "History.it"
+      "tvg_id": "History.it",
+      "stream_type": "sky"
     },
     "mtv": {
       "name": "MTV",
@@ -55,7 +60,8 @@
       "key": "d67dcac48e516e4c8b528d0e3fe23d24",
       "group": "Sky Musica",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/mtv-it.png",
-      "tvg_id": "MTV.it"
+      "tvg_id": "MTV.it",
+      "stream_type": "sky"
     },
     "nickelodeon": {
       "name": "Nickelodeon",
@@ -64,7 +70,8 @@
       "key": "d4e99a107ba1c7ab10e0494285bbacf7",
       "group": "Sky Kids",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/nickelodeon-it.png",
-      "tvg_id": "Nickelodeon.it"
+      "tvg_id": "Nickelodeon.it",
+      "stream_type": "sky"
     },
     "skyadventure": {
       "name": "Sky Adventure",
@@ -73,7 +80,8 @@
       "key": "279a852121432f14ea2e7c5d15401238",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-adventure-it.png",
-      "tvg_id": "SkyAdventure.it"
+      "tvg_id": "SkyAdventure.it",
+      "stream_type": "sky"
     },
     "skyarte": {
       "name": "Sky Arte",
@@ -82,7 +90,8 @@
       "key": "39454b9b64b2d2a1dfa0788c9087418a",
       "group": "Sky Cultura",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-arte-it.png",
-      "tvg_id": "SkyArte.it"
+      "tvg_id": "SkyArte.it",
+      "stream_type": "sky"
     },
     "skyatlantic": {
       "name": "Sky Atlantic",
@@ -91,7 +100,8 @@
       "key": "4ded218f45e7a9d9536f84fd940da992",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-atlantic-it.png",
-      "tvg_id": "SkyAtlantic.it"
+      "tvg_id": "SkyAtlantic.it",
+      "stream_type": "sky"
     },
     "skycinemaaction": {
       "name": "Sky Cinema Action",
@@ -100,7 +110,8 @@
       "key": "8956d92daf04eba02dd3fd224dc99f6b",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-action-it.png",
-      "tvg_id": "SkyCinemaAction.it"
+      "tvg_id": "SkyCinemaAction.it",
+      "stream_type": "sky"
     },
     "skycinemacomedy": {
       "name": "Sky Cinema Comedy",
@@ -109,7 +120,8 @@
       "key": "9dcd57529ba3bce36cb46c384905a989",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-comedy-it.png",
-      "tvg_id": "SkyCinemaComedy.it"
+      "tvg_id": "SkyCinemaComedy.it",
+      "stream_type": "sky"
     },
     "skycinemadrama": {
       "name": "Sky Cinema Drama",
@@ -118,7 +130,8 @@
       "key": "f1a4f55221438edfad33f71ce8d11e53",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-drama-it.png",
-      "tvg_id": "SkyCinemaDrama.it"
+      "tvg_id": "SkyCinemaDrama.it",
+      "stream_type": "sky"
     },
     "skycinemafamily": {
       "name": "Sky Cinema Family",
@@ -127,7 +140,8 @@
       "key": "2ca2feaf3771e485ceb4a10aded58542",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-family-it.png",
-      "tvg_id": "SkyCinemaFamily.it"
+      "tvg_id": "SkyCinemaFamily.it",
+      "stream_type": "sky"
     },
     "skycinemaromance": {
       "name": "Sky Cinema Romance",
@@ -136,7 +150,8 @@
       "key": "2ed82203afcaa7c0b6f1a7d7810abf57",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-romance-it.png",
-      "tvg_id": "SkyCinemaRomance.it"
+      "tvg_id": "SkyCinemaRomance.it",
+      "stream_type": "sky"
     },
     "skycinemastories": {
       "name": "Sky Cinema Stories",
@@ -145,7 +160,8 @@
       "key": "f567d90f134739c815029b7df7de8648",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-due-it.png",
-      "tvg_id": "SkyCinemaDue.it"
+      "tvg_id": "SkyCinemaDue.it",
+      "stream_type": "sky"
     },
     "skycinemasuspense": {
       "name": "Sky Cinema Suspense",
@@ -154,7 +170,8 @@
       "key": "a79b8f7c5b2f40889afcc2deb46d3728",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-suspense-it.png",
-      "tvg_id": "SkyCinemaSuspense.it"
+      "tvg_id": "SkyCinemaSuspense.it",
+      "stream_type": "sky"
     },
     "skycinemauno": {
       "name": "Sky Cinema Uno",
@@ -163,7 +180,8 @@
       "key": "61c626c1e25c65d9443312fce14ed679",
       "group": "Sky Cinema",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-cinema-uno-it.png",
-      "tvg_id": "SkyCinemaUno.it"
+      "tvg_id": "SkyCinemaUno.it",
+      "stream_type": "sky"
     },
     "skycollection": {
       "name": "Sky Collection",
@@ -172,7 +190,8 @@
       "key": "2cffd969c3e289c667474fdacb23bc17",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-collection-it.png",
-      "tvg_id": "SkyCinemaCollection.it"
+      "tvg_id": "SkyCinemaCollection.it",
+      "stream_type": "sky"
     },
     "skycrime": {
       "name": "Sky Crime",
@@ -181,7 +200,8 @@
       "key": "c84de6e52919f9c47726e75e5788f6b9",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-crime-it.png",
-      "tvg_id": "SkyCrime.it"
+      "tvg_id": "SkyCrime.it",
+      "stream_type": "sky"
     },
     "skydocumentaries": {
       "name": "Sky Documentaries",
@@ -190,7 +210,8 @@
       "key": "0b9a47e8dbd5bea92472cf8684a1bea7",
       "group": "Sky Documentari",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-documentaries-it.png",
-      "tvg_id": "SkyDocumentaries.it"
+      "tvg_id": "SkyDocumentaries.it",
+      "stream_type": "sky"
     },
     "skyinvestigation": {
       "name": "Sky Investigation",
@@ -199,7 +220,8 @@
       "key": "fb22d7ff7b1988bc71d03d033e8f34de",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-investigation-it.png",
-      "tvg_id": "SkyInvestigation.it"
+      "tvg_id": "SkyInvestigation.it",
+      "stream_type": "sky"
     },
     "skynature": {
       "name": "Sky Nature",
@@ -208,7 +230,8 @@
       "key": "9b920f9b587e72c1edc914bff684c431",
       "group": "Sky Documentari",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-nature-it.png",
-      "tvg_id": "SkyNature.it"
+      "tvg_id": "SkyNature.it",
+      "stream_type": "sky"
     },
     "skyserie": {
       "name": "Sky Serie",
@@ -217,7 +240,8 @@
       "key": "34d5e7802af83376b7869674e2692a28",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-serie-it.png",
-      "tvg_id": "SkySerie.it"
+      "tvg_id": "SkySerie.it",
+      "stream_type": "sky"
     },
     "skysport24": {
       "name": "Sky Sport 24",
@@ -226,7 +250,8 @@
       "key": "ed6663451a181153b309ede6ff277667",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-24-it.png",
-      "tvg_id": "SkySport24.it"
+      "tvg_id": "SkySport24.it",
+      "stream_type": "sky"
     },
     "skysport251": {
       "name": "Sky Sport 251",
@@ -235,7 +260,8 @@
       "key": "96bd93740aa0b2b3b10d6881bb806d1e",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport251.it"
+      "tvg_id": "SkySport251.it",
+      "stream_type": "sky"
     },
     "skysport252": {
       "name": "Sky Sport 252",
@@ -244,7 +270,8 @@
       "key": "33654c2f6657e630328e2c52896e6d37",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport252.it"
+      "tvg_id": "SkySport252.it",
+      "stream_type": "sky"
     },
     "skysport253": {
       "name": "Sky Sport 253",
@@ -253,7 +280,8 @@
       "key": "f7d71eec2e88d6ff1ec927fef643f8b4",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport253.it"
+      "tvg_id": "SkySport253.it",
+      "stream_type": "sky"
     },
     "skysport254": {
       "name": "Sky Sport 254",
@@ -262,7 +290,8 @@
       "key": "4d1fdb4fc20d0bbe2cbadc793b1084bf",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport254.it"
+      "tvg_id": "SkySport254.it",
+      "stream_type": "sky"
     },
     "skysport255": {
       "name": "Sky Sport 255",
@@ -271,7 +300,8 @@
       "key": "985cf2b5fb1845a358a6e9cc48786a44",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport255.it"
+      "tvg_id": "SkySport255.it",
+      "stream_type": "sky"
     },
     "skysport256": {
       "name": "Sky Sport 256",
@@ -280,7 +310,8 @@
       "key": "d56ad21c13dc64fdb2430fe49469bd25",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport256.it"
+      "tvg_id": "SkySport256.it",
+      "stream_type": "sky"
     },
     "skysport257": {
       "name": "Sky Sport 257",
@@ -289,7 +320,8 @@
       "key": "61cc7fc2256407a650256c4db619607f",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport257.it"
+      "tvg_id": "SkySport257.it",
+      "stream_type": "sky"
     },
     "skysport258": {
       "name": "Sky Sport 258",
@@ -298,7 +330,8 @@
       "key": "20d08f5946e156f8e8d4b292e2f113de",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport258.it"
+      "tvg_id": "SkySport258.it",
+      "stream_type": "sky"
     },
     "skysport259": {
       "name": "Sky Sport 259",
@@ -307,7 +340,8 @@
       "key": "47b17943c1b07d6003b7187d149ee825",
       "group": "Sky Sport Calcio",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySport259.it"
+      "tvg_id": "SkySport259.it",
+      "stream_type": "sky"
     },
     "skysportarena": {
       "name": "Sky Sport Arena",
@@ -316,7 +350,8 @@
       "key": "11f8242419118ba9315a5ea6a11eaf33",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-arena-it.png",
-      "tvg_id": "SkySportArena.it"
+      "tvg_id": "SkySportArena.it",
+      "stream_type": "sky"
     },
     "skysportbasket": {
       "name": "Sky Sport Basket",
@@ -325,7 +360,8 @@
       "key": "931d73f5f8e1cc5c4ff8d242213a8694",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-nba-it.png",
-      "tvg_id": "SkySportNBA.it"
+      "tvg_id": "SkySportNBA.it",
+      "stream_type": "sky"
     },
     "skysportcalcio": {
       "name": "Sky Sport Calcio",
@@ -334,7 +370,8 @@
       "key": "586449edd352aa394e3a31cfcaf1bd1a",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-calcio-it.png",
-      "tvg_id": "SkySportCalcio.it"
+      "tvg_id": "SkySportCalcio.it",
+      "stream_type": "sky"
     },
     "skysportf1": {
       "name": "Sky Sport F1",
@@ -343,7 +380,8 @@
       "key": "ec5151d5f9ab4afc6a28a70ff5b934e7",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-f1-it.png",
-      "tvg_id": "SkySportF1.it"
+      "tvg_id": "SkySportF1.it",
+      "stream_type": "sky"
     },
     "skysportgolf": {
       "name": "Sky Sport Golf",
@@ -352,7 +390,8 @@
       "key": "b0e92072c31c12304984ca80f9e2dd10",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-golf-it.png",
-      "tvg_id": "SkySportGolf.it"
+      "tvg_id": "SkySportGolf.it",
+      "stream_type": "sky"
     },
     "skysportlegend": {
       "name": "Sky Sport Legend",
@@ -361,7 +400,8 @@
       "key": "9d422e464fb08de23130b390ba8a8b25",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-legend-it.png",
-      "tvg_id": "SkySportLegend.it"
+      "tvg_id": "SkySportLegend.it",
+      "stream_type": "sky"
     },
     "skysportmax": {
       "name": "Sky Sport Max",
@@ -370,7 +410,8 @@
       "key": "6feac650a3747c78062072903de836e4",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-max-it.png",
-      "tvg_id": "SkySportMax.it"
+      "tvg_id": "SkySportMax.it",
+      "stream_type": "sky"
     },
     "skysportmix": {
       "name": "Sky Sport Mix",
@@ -379,7 +420,8 @@
       "key": "92512e3c907527ff81678d08ace9c45d",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-mix-it.png",
-      "tvg_id": "SkySportMix.it"
+      "tvg_id": "SkySportMix.it",
+      "stream_type": "sky"
     },
     "skysportmotogp": {
       "name": "Sky Sport MotoGP",
@@ -388,7 +430,8 @@
       "key": "6c10a382f4715359f0c0ec9a2751c3da",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-motogp-it.png",
-      "tvg_id": "SkySportMotoGP.it"
+      "tvg_id": "SkySportMotoGP.it",
+      "stream_type": "sky"
     },
     "skysporttennis": {
       "name": "Sky Sport Tennis",
@@ -397,7 +440,8 @@
       "key": "236d0731787ff055c604e7eac27dcadb",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-tennis-it.png",
-      "tvg_id": "SkySportTennis.it"
+      "tvg_id": "SkySportTennis.it",
+      "stream_type": "sky"
     },
     "skysportuno": {
       "name": "Sky Sport Uno",
@@ -406,7 +450,8 @@
       "key": "1e42dadbd0075fd69b6975fd8c9f8f7b",
       "group": "Sky Sport",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-sport-uno-it.png",
-      "tvg_id": "SkySportUno.it"
+      "tvg_id": "SkySportUno.it",
+      "stream_type": "sky"
     },
     "skyuno": {
       "name": "Sky Uno",
@@ -415,7 +460,8 @@
       "key": "d5a964d3afa7a11cf32d08de1d54b701",
       "group": "Sky Intrattenimento",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-uno-it.png",
-      "tvg_id": "SkyUno.it"
+      "tvg_id": "SkyUno.it",
+      "stream_type": "sky"
     },
     "tg24": {
       "name": "Sky TG24",
@@ -424,7 +470,653 @@
       "key": "c0cd1f001bba58b1261d12ff04e4d5bd",
       "group": "Sky Informazione",
       "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/sky-tg24-it.png",
-      "tvg_id": "SkyTG24.it"
+      "tvg_id": "SkyTG24.it",
+      "stream_type": "sky"
+    },
+    "dazn_1700_athletic_bilbao_celta_vigo": {
+      "name": "17:00 Athletic Bilbao - Celta Vigo",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036615~exp%3D1779123015~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D9672ee46ea7f77015ac00d661045126fa27d6babf489d18af66a11d15a05f1eb~hmac%3Dc183f4b2321c211973b71b22c035d77ece353ef0419380fd3387dd6dd7239ea4/lktm2ikgiluv1xvz80u9jplsp/web/stream.mpd?channel=6728&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "cfb5e2b73bef4f3c878f25ab86a7451f",
+      "key": "0d6712bf2a84edcc93d001a9613f6fec",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_atltico_madrid_girona": {
+      "name": "17:00 Atlético Madrid - Girona",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036603~exp%3D1779123003~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D7c2b035e359238a921b8826e09f13635f80d6b07e60f5d40fbddb281b96228a5%23wm%3D0~hmac%3Da24afbc2de51b6e5d3e0f5ad230ddbe74014b088430e512c332d2d2556168139/d9r2relqr38q15r3975w2pc65/web/stream.mpd?channel=6915&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "26a5c664d47855798bb53c6b3b54ca1f",
+      "key": "2a15a74c2bb859f8e72cb89f13d83f03",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_elche_getafe": {
+      "name": "17:00 Elche - Getafe",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036614~exp%3D1779123014~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D952e7731b4b23306ecd0b10332fb9947225643437f76d0099f68cf0fb8f1bf03~hmac%3D12f5da5abaec3bf5a2347618a98068fd0cadf12dc068dbadd511564e2ee39d31/w4v1l5n9ukm414jgagxyftole/web/stream.mpd?channel=6751&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "cfb5e2b73bef4f3c878f25ab86a7451f",
+      "key": "0d6712bf2a84edcc93d001a9613f6fec",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_laliga_multigol": {
+      "name": "17:00 LaLiga Multigol",
+      "manifest": "https://dcb-deit-livedazn.daznedge.net/@tend%3A1779123606~geo%3AIT~asn%3A16232~path%3A1_1_b30f7be7af3d80eb8a032cef87f978d9ed3c077f2950a538ad622e02013b2612~id%3A9827c3cf91d3~tk3%3A9b47791fff1a3158c36a754952e25d4e6aab3ce9aa51da29321a7c3ca7afd1eb/1fkj4pr27mm471tlv1eo69p0g2/web/stream.mpd?channel=3235&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "07db40e0948e5f0eb497da79d7ac24c0",
+      "key": "89a67f00036a7efa168cc04fe9ad7feb",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_levante_maiorca": {
+      "name": "17:00 Levante - Maiorca",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036618~exp%3D1779123018~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Dcd5e1c80023a15b6e1ed0787f4aed868962eac6f12f31181f709cb7df4ac449f~hmac%3D659cd6c3114c465ccc189d8dc0bfc70c658b861a75db86d3cb16aee15fe786c0/pcco1rdabi3016xhpl8ar8976/web/stream.mpd?channel=6729&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "cfb5e2b73bef4f3c878f25ab86a7451f",
+      "key": "0d6712bf2a84edcc93d001a9613f6fec",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_osasuna_espanyol": {
+      "name": "17:00 Osasuna - Espanyol",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036617~exp%3D1779123017~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Dfc00873edb3e26128de25558747bdb0b4ecd1d0324d6ff00901a22cc41008d5c~hmac%3D4cfe2129ea4e38422853ee61caf6509a1f93e814b00eaf523232460540e508a6/y94jx9yqr6711bpa9qulq0bg1/web/stream.mpd?channel=6730&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "cfb5e2b73bef4f3c878f25ab86a7451f",
+      "key": "0d6712bf2a84edcc93d001a9613f6fec",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_rayo_vallecano_villarreal": {
+      "name": "17:00 Rayo Vallecano - Villarreal",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036610~exp%3D1779123010~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D21a6defe55dfc57c656f8c46e6327bfe48ededa8b023f0ca59e931858fd9a99b%23wm%3D0~hmac%3Db6850993f7478f43c77f2aca8e3f5b7bd0febf4b9a34598c407ab797635b1b51/emc8je7lgszh1gz2kk7kjavjk/web/stream.mpd?channel=6925&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "bfb9a807ccfc57fcb85c9988ba7a3d5e",
+      "key": "c865c6c45a905e4ad4ec1976490f9a95",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_real_oviedo_alavs": {
+      "name": "17:00 Real Oviedo - Alavés",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036612~exp%3D1779123012~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Da364e145746aaf56c231b9602d65550e40bf1707393f661d50860c399e4c5a97~hmac%3D282cd933efdbbda2e9e4387c0f1775c2e263cd6c8214bd11aad47b5e647e52fb/1uxbc3rru2bjx1ioqtfdjqm5dr/web/stream.mpd?channel=6740&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "cfb5e2b73bef4f3c878f25ab86a7451f",
+      "key": "0d6712bf2a84edcc93d001a9613f6fec",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_real_sociedad_valencia": {
+      "name": "17:00 Real Sociedad - Valencia",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036608~exp%3D1779123008~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D5ccc103d34cbc0bbe1d6fc885933c14cd2daf033c72b545b934a8d2e9c8dda4c%23wm%3D0~hmac%3Db25df30356627767775681c9afa73584f605811a57b682b4d0506869af9723b1/18opc6wtjy2o11lmvpj5qh2ye0/web/stream.mpd?channel=6933&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "e237483356e65592997cc26fab3b66a8",
+      "key": "e337c4f4670870677197abef2da6e14c",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_siviglia_real_madrid": {
+      "name": "17:00 Siviglia - Real Madrid",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779036605~exp%3D1779123005~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D7524120e0f62b36261c1210e7ef1222cb295eecaa0a7eddfe7393937c862ebdd%23wm%3D0~hmac%3D9dc5a4925052f5d4fdcb667b5d28118ebaa0468e320a1bc1225d28fd6bf66434/11rjid58fj41s1a05obd14dm8a/web/stream.mpd?channel=6946&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "6acc08f03b1f5c35af86bd3568175346",
+      "key": "203e9af858a23d5e9bc51dea191cde7d",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_0826_zona_serie_a_enilive_lotta_champions": {
+      "name": "08:26 Zona Serie A Enilive | Lotta Champions",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779006603~exp%3D1779093003~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3Db314bda19ec5741dc9e936e9c521b0c613a3d181c738ec865566e64d49922167%23wm%3D0~hmac%3D72ba4f9b1f11ad4b4532a2b71c83b0a5b135cea2e389ee930c24342597ddd80c/19o3hgcp4ohwuzytbvpjvfg72/web/stream.mpd?channel=1345&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "38272cf3ccf853e5b809247f86239a20",
+      "key": "34582f4595503335642c73253efbdf47",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_0941_como_parma": {
+      "name": "09:41 Como - Parma",
+      "manifest": "https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779011407~exp%3D1779097807~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3De1004e73a6e8dfe5d342a27d77f784b476a2a93bbeadcb9c7b755376d80c1271%23wm%3D0~hmac%3Dcb72ffda11d34254e8ad32b8d8b0d81c7e3c5d9cb244f7a08e7404844e90dc5c/vojiitby7tg815rv36kgxyhg2/web/stream.mpd?channel=1948&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "dc37127a0dee50db8e26be5fc3031e19",
+      "key": "f5aa7f3285bc42ab2eba754013b3b7c6",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_0941_genoa_milan": {
+      "name": "09:41 Genoa - Milan",
+      "manifest": "https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779011403~exp%3D1779097803~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D07d02ddc2c086694ba1ef698990f2b041a3ef7d73e64399beb76bded7e67a4a8%23wm%3D0~hmac%3Dbafff5361d6e020a1c950c6869e7d5247b998816c6af1f70440ebd7d59d0f6a6/186pe5ovyip7ez56nfh970ro0/web/stream.mpd?channel=1381&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "70ef724595885f3e8675eb9e4d973269",
+      "key": "c88e651e53b62dd364ccc1cd31f55789",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_0941_juventus_fiorentina": {
+      "name": "09:41 Juventus - Fiorentina",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779011105~exp%3D1779097505~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D77f58ff21946a92bc01ed8a0888a801354cde09c13db6c3c35dd86583a2d8a0c%23wm%3D0~hmac%3D6c41f8c4ac184c615a542170e1cf7f56c5710e54aaa77938175f832e39e3aba9/czumbrkzuwz7131y0etyt6600/web/stream.mpd?channel=1389&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "a4da8ec43f815458a516d2c8457fa9ea",
+      "key": "d4466db7099a1f2f4d6b9d29dd07a1cd",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_0941_pisa_napoli": {
+      "name": "09:41 Pisa - Napoli",
+      "manifest": "https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779011405~exp%3D1779097805~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D3e301dfb8f5243515b4019a3a2739df73d2012b907422a04b27260a628693481%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D2eaacc8283d259cf2f6c9f42863c68191155d849667e361f7918b90062a03eb9/1bpevxx7hp10e19os4l6pa1lz5/web/stream.mpd?channel=1382&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "9f1f5cfc732858a4af1d74300412eb7a",
+      "key": "65247fda913e82dfebf8fe80453a35e3",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_0941_roma_lazio": {
+      "name": "09:41 Roma - Lazio",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779011103~exp%3D1779097503~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D9143b836deec5dbe2f8469ccf3927402775e467e6a7e5f21fd0995e03c4cb26b%23wm%3D0~hmac%3D0d93c9d62da99dab32f72eef8a4c8c8ec9702720843b8e40e3c87d0676c58db1/1567b115zqci01vmplhyxb7n1n/web/stream.mpd?channel=1347&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "5cd76b4876fb5bd3accedd445f314027",
+      "key": "b8234f0da3369a23124df13dba10ed05",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1141_inter_hellas_verona": {
+      "name": "11:41 Inter - Hellas Verona",
+      "manifest": "https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779018303~exp%3D1779104703~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D4b76c8325cb5fbaea055078b2cff26381cac77b8a6e8e5b9f7f08a775b2944fc%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D8a8a9d6f76aa4e393748d43d827024fdd978d1df62f0bdca089e98776fa92734/svbk1z9rizs157ycz3irsn2n/web/stream.mpd?channel=1388&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "cdceaa45ddba5fafbb229e55913cac2f",
+      "key": "3943de71357bcca0636ecd30daae4435",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1210_trentaquattresimapuntata_vamos": {
+      "name": "12:10 Trentaquattresimapuntata | Vamos!",
+      "manifest": "https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779019804~exp%3D1779106204~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3De8a0ee487d297b87545a84d037f01633feb62eb2efb84e6b6db39314e40e99c0%23wm%3D0~hmac%3Dc14ff0124b9e0d3d5d02cddc8fa9a60853c1f0795d9d24626517e802c957a9d0/1764iu6z83bws181lffimx0myo/web/stream.mpd?channel=1946&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "25751c9269045825a40d173b04849822",
+      "key": "7439cd8b56439d47f5ff6a140af7077f",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1541_atalanta_bologna": {
+      "name": "15:41 Atalanta - Bologna",
+      "manifest": "https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779032703~exp%3D1779119103~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D4da63313326e55fe8a77799cad545db3d1347988ccabf31a98d7043a23423c15%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D44f9b755eafb097ea4e9ab19d44512a28db779a0bf20843a516341c6643f06c9/14e4zs1ig9xxk1bj6vg1if9o5l/web/stream.mpd?channel=1381&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "5cf9bb95712951d1beffcaa362dee3c9",
+      "key": "f53e42d1ba1d0206153d6989ab00822c",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1700_inter_tv_la_festa_scudetto_dei_nerazzurri": {
+      "name": "17:00 Inter TV | La festa Scudetto dei nerazzurri",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779037203~exp%3D1779123603~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D40fbf3fe728b7468c21cf9dca8d6ae2d03b2a4cd76ba332a5c14c967224596f1%23wm%3D0~hmac%3Dac4a1bd688c7d4e233b2b2c147efdf1bdd3d9d22281b181c77e597c7c7e3cdfb/1qpkdm8igx9sv14eibwsvpk34k/web/stream.mpd?channel=3223&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "5f9a9f850c065d2e9fbdf2b057137016",
+      "key": "d06a94b10de6aac2ea75171a08357eeb",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1756_zona_serie_a_enilive_lotta_salvezza": {
+      "name": "17:56 Zona Serie A Enilive | Lotta salvezza",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779040805~exp%3D1779127205~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D235edec50a9ea60d89e0e3cab3f45939be17c88498a266e66d5b72073f858306%23wm%3D0~hmac%3Dfe24f06fed7d39f96a2fddf921e641d5c0a50f2059d7f65a87eb2960dc64d603/oayyvcb8060zz76669hxqzcc/web/stream.mpd?channel=1340&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "a0159bf4d7db57d28973d3f0f124e46d",
+      "key": "689129fb8f76384685313c77cbc7bd8b",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1826_cagliari_torino": {
+      "name": "18:26 Cagliari - Torino",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779042615~exp%3D1779129015~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D4d3c0fc6d852f1bd2ff2fcd41735d51a66f4dcc92513d6f3a5c37b563d5d794f%23wm%3D0~hmac%3D09b8524568bac6927ad96cbf1d5d58d30ba199763a85a6383b62436459c9f051/1tubx2i5sdt3y15q0txtm1h0um/web/stream.mpd?channel=1348&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "93dbd72ecd015e47adc7a10e991eeca0",
+      "key": "7103d8224c3c58a73fa6b937d4ff975e",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1826_sassuolo_lecce": {
+      "name": "18:26 Sassuolo - Lecce",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779042603~exp%3D1779129003~acl%3D%2F*~id%3D29ce4820-8b55-5ac6-8c7a-5a820e51ebbb~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D9209317c9c6d859a31a2d58e787830139349da9dc84516f313150165f1fe1a11%23wm%3D1%23wmd%3D1152%23tmidversion%3D3~hmac%3D76db8897b184cefc16cec7da62d1bf41bf3ee2bef01e5859b63064d8288827a4/1so31plu4d94s1ik13o8goucje/web/stream.mpd?channel=1382&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "d21a543c2edc526cb81527072e859b15",
+      "key": "7440224ed116c74919121cd890754a0f",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1826_udinese_cremonese": {
+      "name": "18:26 Udinese - Cremonese",
+      "manifest": "https://dcb-tm-livedazn.dazn.ticdn.it/@st%3D1779042612~exp%3D1779129012~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D516bd9939f9441ad1289c86beb9408cf640fd339d5ee374346ae2d76d829f6d7%23wm%3D0~hmac%3Db5ae06a155a1e953ea9679273040e151deef8ea1d38ad94da1bef19d4fba60e7/173fcqsbuo03119ebj1fgokj81/web/stream.mpd?channel=1347&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "86b7bcc7b71e5f5aa558ed59ece50805",
+      "key": "73ceb86051a97940ae617a93f777b9af",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_1800_semifinali_playoff_andata_catanzaro_palermo": {
+      "name": "18:00 Semifinali Playoff Andata | Catanzaro - Palermo",
+      "manifest": "https://dca-tm-livedazn.dazn.ticdn.it/@st%3D1779040203~exp%3D1779126603~acl%3D%2F*~id%3D9827c3cf91d3~data%3Dcountry%3Dit%23path%3D1s%2C1d%23hashp%3D09ccc49a7850436600e653aa66a74a901840ae08f05b9e870909be16cd3d0a9c%23wm%3D0~hmac%3Dd422f7df6f4e0177d67cdc948cd31be01786ce5b4254a04f87aea0b86949e6ef/1oqyogvmwcukk1tie3780h3ssl/web/stream.mpd?channel=3956&mta=it&outlet=dazn-italy&plang=it",
+      "kid": "2c4da5727eed556f8e571e4189a14d5b",
+      "key": "c84cd86d659bb62cc72b18e11aa373c0",
+      "group": "DAZN Sport",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 05.06.10; 1); webOS.TV-2014; LG NetCast.TV-2013 Compatible (LGE, WEBOS1, wireless)",
+        "Referer": "https://www.dazn.com/",
+        "Origin": "https://www.dazn.com"
+      }
+    },
+    "dazn_ch_21_dazn_serie_b": {
+      "name": "CH 21 [DAZN SERIE B]",
+      "manifest": "https://dctv.mocdn.tv/out/v1/53b5ed79722b4b23932dd86262242e03/manifest_L1.mpd",
+      "kid": "11c83f71744e40209ed12b1ce234d055",
+      "key": "83279bd86c8f71656440af1abaf43f0a",
+      "group": "DAZN Serie B",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/dazn-it.png",
+      "tvg_id": "",
+      "stream_type": "dazn"
+    },
+    "sport_ch_01_izziespn": {
+      "name": "CH 01 [IzziESPN]",
+      "manifest": "https://aca-live-ott.izzigo.tv/6/out/u/dash/ESPNHDH265/default.mpd",
+      "kid": "3fb8167957692836eca1464b7f952b45",
+      "key": "f31042e8167eb4b49ce8117c9e5f1e85",
+      "group": "Sport Extra (Izzi TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_02_izziespn2": {
+      "name": "CH 02 [IzziESPN2]",
+      "manifest": "https://aca-live-ott.izzigo.tv/7/out/u/dash/ESPN2HDH265/default.mpd",
+      "kid": "faa2d2197cc44dc154650bbacb0dc238",
+      "key": "9859d70c856660e20bbe6896f9cd3048",
+      "group": "Sport Extra (Izzi TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_03_bein3aus": {
+      "name": "CH 03 [BEIN3AUS]",
+      "manifest": "https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+      "kid": "7995c724a13748ed970840a8ab5bb9b3",
+      "key": "67bdaf1e2175b9ff682fcdf0e2354b1e",
+      "group": "Sport Extra (BeIN/OTT)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_04_eleven1": {
+      "name": "CH 04 [ELEVEN1]",
+      "manifest": "https://lineartv-cdn.t-mobile.pl/bpk-tv/elevensports1/default/index.mpd",
+      "kid": "751db0bb03145084973c6cf9c85fa16e",
+      "key": "6571153c39eed18c29cdc63eb83c553a,4853dbe4c4cf51f3ba95424c6e6f69c7:39c0346198bc9b1614eb319115afdb84,fd9b5f8ae64a51edacd4f245ef515287:c867d24646b170b5c0e0556b56b291d7",
+      "group": "Sport Extra (Eleven)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_05_eleven2": {
+      "name": "CH 05 [ELEVEN2]",
+      "manifest": "https://lineartv-cdn.t-mobile.pl/bpk-tv/elevensports2/default/index.mpd",
+      "kid": "a118a928ea39552f976c8fad437f71ad",
+      "key": "f58fb7a53ee86de9d0b9823446ba9756,78f826af752f54ddbc4ad9959ff2a42d:c1479ffada263000730d627a989e96ab,95c2aefadb7e522c9deeed393207f853:16e857224e16ab01a3c549212cdbdbb8",
+      "group": "Sport Extra (Eleven)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_06_cbsgolazo": {
+      "name": "CH 06 [CBSgolazo]",
+      "manifest": "https://netskrt.live.pv-cdn.net/OTTB/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
+      "kid": "d9623774ac5c8c351aafe97c5fe70267",
+      "key": "5164e6d05164a2d65fa8fcc962aa4861",
+      "group": "Sport Extra (CBS Golazo)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_07_ziggo2": {
+      "name": "CH 07 [Ziggo2]",
+      "manifest": "https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EOhA1DF4svOZppKxb-t-Ngw144cce44121c63284a33d5453493e5c8%7E1_Fmlu5PevHMYnEi9Z_HX2goKAd0VHSuxZMoIcAXcawYvG1meqGp2eQ2Ibhjvh7e59e7f6df3d57f23a32024ad67f0f19dc%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601013140%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601013140%2C3103_SP1V%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717205500296&RTS=1717205500&from=11&hms_devid=579&online=1717205500&mag_hms=579",
+      "kid": "3cfa8625f650406ebf6a4d1ea737f572",
+      "key": "0534e747c70b364aa7210e1bf3191df0",
+      "group": "Sport Extra (Ziggo)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_08_ziggo3": {
+      "name": "CH 08 [Ziggo3]",
+      "manifest": "https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EyVi0dMX4icO5Ka9e92EQfg8812e1c1044f7d357066472e3ee99ef4%7E2dRB9E-vDtoAbYl169LbcJpxUgWVJtbeU_PlhGfNUflphvljOb5VaEhxruETYG9qcccaf5c5b655bf7504ed7ec5a1dd798f%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601013401%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601013401%2C3103_SP1G%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717205641752&RTS=1717205641&from=16&hms_devid=538&online=1717205641&mag_hms=538",
+      "kid": "4dbea4b5713a4aa1ae3a2544cd522fc7",
+      "key": "a8323ea99b2d6200a48e1bc27322d548",
+      "group": "Sport Extra (Ziggo)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_10_bein1": {
+      "name": "CH 10 [BEIN1]",
+      "manifest": "https://aba5sdmaaaaaaaamooyrewxky2c4j.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+      "kid": "335dad778109954503dcbb21dc92015f",
+      "key": "24bfd75d436cbf73168a2a2dccd40281",
+      "group": "Sport Extra (BeIN/OTT)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_11_bein2": {
+      "name": "CH 11 [BEIN2]",
+      "manifest": "https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+      "kid": "0b42be2664d7e811d04f3e504e0924c5",
+      "key": "ae24090123b8c72ac5404dc152847cb8",
+      "group": "Sport Extra (BeIN/OTT)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_12_fubotv": {
+      "name": "CH 12 [FUBOTV]",
+      "manifest": "https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+      "kid": "dc69b6159a0f9f0a4e03b3ff91cbacd5",
+      "key": "d0dcbcd7723bc40df0bf34c9c092d51f",
+      "group": "Sport Extra (BeIN/OTT)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_13_prime": {
+      "name": "CH 13 [PRIME]",
+      "manifest": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rlisfyx9vd/out/v1/61b8f61b22ac469297cbd4f1224f0ec8/cenc.mpd",
+      "kid": "f159241d40e659d58e81bc17ca30da31",
+      "key": "6b7fe24f7a16343bd447b0b30f68b7b2",
+      "group": "Sport Extra (BeIN/OTT)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_14_setanta1": {
+      "name": "CH 14 [SETANTA1]",
+      "manifest": "https://tr.live.cdn.cgates.lt/live/dash/561002/index.mpd",
+      "kid": "8ab2332442854e62b0018eec3ee58484",
+      "key": "37fdee8b6eef5c96001e8c6fc47bfc08",
+      "group": "Sport Extra (Setanta)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_ch_15_setanta2": {
+      "name": "CH 15 [SETANTA2]",
+      "manifest": "https://tr.live.cdn.cgates.lt/live/dash/561504/index.mpd",
+      "kid": "9552bcbabfbd4ac19744422143bfb875",
+      "key": "e6daacaced7eba147d2b667441060a4f",
+      "group": "Sport Extra (Setanta)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_lbatv1": {
+      "name": "LBATV1",
+      "manifest": "https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-01-prd-l-v2/dash-ch-01-prd-l-hd/index.mpd",
+      "kid": "1dc8e43978703e1cb83ec7baec4a524f",
+      "key": "1294fa253a7deae7edb38532b6719acd",
+      "group": "Sport Extra (LBA TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_lbatv2": {
+      "name": "LBATV2",
+      "manifest": "https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-02-prd-l-v2/dash-ch-02-prd-l-hd/index.mpd",
+      "kid": "bc0dd629d4833b029bdd4d80a61f7b0d",
+      "key": "75ec4be73212e306da2f201dbf41495a",
+      "group": "Sport Extra (LBA TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_lbatv3": {
+      "name": "LBATV3",
+      "manifest": "https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-03-prd-l-v2/dash-ch-03-prd-l-hd/index.mpd",
+      "kid": "99f90205c24c319db57438296a95cea5",
+      "key": "aaec695c88692ac9deb0c0a71a0aeb89\n",
+      "group": "Sport Extra (LBA TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_lbatv4": {
+      "name": "LBATV4",
+      "manifest": "https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-04-prd-l-v2/dash-ch-04-prd-l-hd/index.mpd",
+      "kid": "744207283a9133ddb9ea79af52801893",
+      "key": "d119b941bb2e1ec1cd46dbd7c5c3483e",
+      "group": "Sport Extra (LBA TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_lbatv5": {
+      "name": "LBATV5",
+      "manifest": "https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-05-prd-l-v2/dash-ch-05-prd-l-hd/index.mpd",
+      "kid": "4e22677e8aec3c93b92e9d45d2bca6de",
+      "key": "764ce6e01d256388999b2f935b9c08a1",
+      "group": "Sport Extra (LBA TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_supertennis_1": {
+      "name": "SuperTennis 1",
+      "manifest": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd",
+      "kid": "",
+      "key": "",
+      "group": "Sport Extra (SuperTennis)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_supertennis_2": {
+      "name": "SuperTennis 2",
+      "manifest": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd",
+      "kid": "",
+      "key": "",
+      "group": "Sport Extra (SuperTennis)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_supertennis_3": {
+      "name": "SuperTennis 3",
+      "manifest": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd",
+      "kid": "",
+      "key": "",
+      "group": "Sport Extra (SuperTennis)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_supertennis_4": {
+      "name": "SuperTennis 4",
+      "manifest": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd",
+      "kid": "",
+      "key": "",
+      "group": "Sport Extra (SuperTennis)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_nba_tv": {
+      "name": "NBA TV",
+      "manifest": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/qio4cutx9r/out/v1/c89ef71f801b42b7abe65c7777adc6c4/cenc.mpd",
+      "kid": "4ee9b41e5053ef434c13dbb783df9e32",
+      "key": "a275236600bfaedf230286f7b71b0a99",
+      "group": "Sport Extra (BeIN/OTT)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_paramount": {
+      "name": "PARAMOUNT+",
+      "manifest": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd",
+      "kid": "a49085f8da5e65af1efff0edac830b1f",
+      "key": "4659bc58a85c062e3fe0c039a446fe47",
+      "group": "Sport Extra (Prime/NBA)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
+    },
+    "sport_seven_tv": {
+      "name": "SEVEN TV",
+      "manifest": "https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(4s)/manifest.mpd",
+      "kid": "0000000000000000000000000034730a",
+      "key": "19bfb83e0e0f40f6eef4eccedbfa7bb8",
+      "group": "Sport Extra (Seven TV)",
+      "logo": "",
+      "tvg_id": "",
+      "stream_type": "sport"
     }
   }
 }
