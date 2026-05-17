@@ -247,6 +247,19 @@ SPORT_CDN_DOMAINS = {
     "msvdn.net": "SuperTennis",
 }
 
+# Loghi per canali Sport Extra (per provider che hanno logo nel CDN)
+SPORT_LOGO_MAP = {
+    "supertennis": f"{LOGO_CDN}/super-tennis-it.png",
+    "eurosport": f"{LOGO_CDN}/eurosport-1-it.png",
+    "eurosport2": f"{LOGO_CDN}/eurosport-2-it.png",
+    "sportitalia": f"{LOGO_CDN}/sportitalia-it.png",
+    "nbatv": "",
+    "milantv": f"{LOGO_CDN}/milan-tv-it.png",
+    "intertv": f"{LOGO_CDN}/inter-tv-it.png",
+    "romatv": f"{LOGO_CDN}/roma-tv-it.png",
+    "laziostylech": f"{LOGO_CDN}/lazio-style-channel-it.png",
+}
+
 
 def classify_manifest(manifest_url):
     """Classifica un manifest URL per tipo di provider.
@@ -262,6 +275,10 @@ def classify_manifest(manifest_url):
         if domain in lower:
             group = "DAZN Serie B" if "mocdn" in lower else "DAZN Sport"
             return "dazn", group, DAZN_LOGO
+
+    # Check SuperTennis (ha logo e EPG dedicati)
+    if "msvdn.net" in lower:
+        return "sport", "Sport Extra (SuperTennis)", SPORT_LOGO_MAP.get("supertennis", "")
 
     # Check altri provider sportivi
     for domain, provider_name in SPORT_CDN_DOMAINS.items():
@@ -344,10 +361,187 @@ TVG_ID_MAP = {
 }
 
 # DAZN tvg-id mapping (iptv-epg.org)
+# iptv-epg.org ha DAZN1.it -> DAZN100.it + ZONADAZN.it -> ZONADAZN5.it
 DAZN_TVG_ID_MAP = {
-    "dazn1": "DAZN1.it",
-    "dazn2": "DAZN2.it",
+    # Canali DAZN numerati
+    **{f"dazn{i}": f"DAZN{i}.it" for i in range(1, 101)},
+    # Zona DAZN
+    "zonadazn": "ZONADAZN.it",
+    **{f"zonadazn{i}": f"ZONADAZN{i}.it" for i in range(2, 6)},
 }
+
+
+def guess_dazn_tvg_id(title):
+    """Prova a dedurre il tvg-id DAZN dal titolo del canale.
+
+    Pattern riconosciuti:
+      - 'DAZN 1', 'DAZN1', 'DAZN 1 ...' → DAZN1.it
+      - 'ZONA DAZN', 'ZONA DAZN 2' → ZONADAZN.it, ZONADAZN2.it
+      - 'DAZN 1 Serie B', 'DAZN 1 S.B.' → DAZN1.it
+
+    Ritorna il tvg-id (es. 'DAZN1.it') o stringa vuota se non riconosciuto.
+    """
+    clean = clean_channel_title(title).upper()
+
+    # Pattern: ZONA DAZN N
+    m = re.search(r'ZONA\s+DAZN\s*(\d+)?', clean)
+    if m:
+        num = m.group(1) or ""
+        tvg_id = f"ZONADAZN{num}.it" if num else "ZONADAZN.it"
+        return tvg_id
+
+    # Pattern: DAZN N (con o senza spazi, seguito da eventuali suffissi)
+    m = re.search(r'DAZN\s*(\d+)', clean)
+    if m:
+        num = m.group(1)
+        tvg_id = f"DAZN{num}.it"
+        # Verifica che il tvg_id esista nella mappa
+        key = f"dazn{num}"
+        if key in DAZN_TVG_ID_MAP:
+            return tvg_id
+
+    return ""
+
+
+# EPG tvg-id mapping per canali Sport Extra (iptv-epg.org)
+SPORT_TVG_ID_MAP = {
+    # SuperTennis
+    "supertennis": "SuperTennis.it",
+    "super_tennis": "SuperTennis.it",
+    # Eurosport
+    "eurosport": "Eurosport.it",
+    "eurosport1": "Eurosport.it",
+    "eurosport2": "Eurosport2.it",
+    # Sportitalia
+    "sportitalia": "Sportitalia.it",
+    # NBA
+    "nbatv": "",
+    "nba_tv": "",
+    # Milan TV
+    "milantv": "MilanTV.it",
+    "milan_tv": "MilanTV.it",
+    # Inter TV
+    "intertv": "InterTV.it",
+    "inter_tv": "InterTV.it",
+    # Roma TV
+    "romatv": "RomaTV.it",
+    "roma_tv": "RomaTV.it",
+    # Lazio Style Channel
+    "laziostylech": "LazioStyleCh.it",
+    "lazio_style_channel": "LazioStyleCh.it",
+    # Torino Channel
+    "torinochannel": "TorinoChannel.it",
+    "torino_channel": "TorinoChannel.it",
+    # Serie A team channels (per eventi specifici)
+    "juventus": "JUVENTUS.SerieA",
+    "inter": "INTER.SerieA",
+    "milan": "MILAN.SerieA",
+    "roma": "ROMA.SerieA",
+    "lazio": "LAZIO.SerieA",
+    "napoli": "NAPOLI.SerieA",
+    "fiorentina": "FIORENTINA.SerieA",
+    "atalanta": "ATALANTA.SerieA",
+    "bologna": "BOLOGNA.SerieA",
+    "torino": "TORINO.SerieA",
+    "udinese": "UDINESE.SerieA",
+    "cagliari": "CAGLIARI.SerieA",
+    "genoa": "GENOA.SerieA",
+    "parma": "PARMA.SerieA",
+    "lecce": "LECCE.SerieA",
+    "como": "COMO.SerieA",
+    "sassuolo": "SASSUOLO.SerieA",
+    "verona": "HELLASVERONA.SerieA",
+    "cremonese": "CREMONESE.SerieA",
+    "pisa": "PISA.SerieA",
+    # Motori
+    "acisporttv": "ACISportTv.it",
+    "aci_sport_tv": "ACISportTv.it",
+    # Altri
+    "horse_tv": "HorseTV.it",
+    "horsetv": "HorseTV.it",
+    "automototv": "Automoto.it",
+    "automoto": "Automoto.it",
+    "biketv": "BIKE.it",
+    "bike": "BIKE.it",
+    "uniresat": "UnireSat.it",
+    "italianfishingtv": "ItalianFishingTV.it",
+    "cacciaepesca": "CACCIAePesca.it",
+    "cacciaepestv": "CacciaePESCA.it",
+}
+
+
+def guess_sport_tvg_id(title):
+    """Prova a dedurre il tvg-id per canali Sport Extra dal titolo.
+
+    Strategie di matching (in ordine di priorità):
+    1. Match esatto con parole chiave nel titolo (es. 'SuperTennis' → SuperTennis.it)
+    2. Ricerca nome squadra per eventi calcistici (es. 'Juve vs Milan' → JUVENTUS.SerieA)
+    3. Ricerca provider nel titolo (es. 'Eurosport 1' → Eurosport.it)
+
+    Ritorna il tvg-id (es. 'SuperTennis.it') o stringa vuota se non riconosciuto.
+    """
+    clean = clean_channel_title(title)
+    lower = clean.lower()
+
+    # 1. Match diretto con chiavi note
+    for key, tvg_id in SPORT_TVG_ID_MAP.items():
+        if key in lower.replace(" ", "").replace("-", ""):
+            return tvg_id
+
+    # 2. Ricerca parole nel titolo (per match parziali tipo "SuperTennis", "Eurosport")
+    #    Controlla parole intere per evitare falsi positivi
+    words = re.split(r'[\s\-_.,/|]+', lower)
+    for word in words:
+        for key, tvg_id in SPORT_TVG_ID_MAP.items():
+            if word == key:
+                return tvg_id
+
+    # 3. Pattern specifici per eventi sportivi (squadre nel titolo)
+    #    Es. "Serie A - Juventus vs Milan" → JUVENTUS.SerieA (prima squadra)
+    team_patterns = [
+        (r'juve(?:ntus)?', "JUVENTUS.SerieA"),
+        (r'inter(?:\s+milano|\s+milan)?', "INTER.SerieA"),
+        (r'milan(?:\s+ac)?', "MILAN.SerieA"),
+        (r'roma(?:\s+fc)?', "ROMA.SerieA"),
+        (r'lazio', "LAZIO.SerieA"),
+        (r'napoli', "NAPOLI.SerieA"),
+        (r'fiorentina', "FIORENTINA.SerieA"),
+        (r'atalanta', "ATALANTA.SerieA"),
+        (r'bologna', "BOLOGNA.SerieA"),
+        (r'torino(?:\s+fc)?', "TORINO.SerieA"),
+        (r'udinese', "UDINESE.SerieA"),
+        (r'cagliari', "CAGLIARI.SerieA"),
+        (r'genoa', "GENOA.SerieA"),
+        (r'parma', "PARMA.SerieA"),
+        (r'lecce', "LECCE.SerieA"),
+        (r'como', "COMO.SerieA"),
+        (r'sassuolo', "SASSUOLO.SerieA"),
+        (r'(?:verona|hellas)', "HELLASVERONA.SerieA"),
+        (r'cremonese', "CREMONESE.SerieA"),
+        (r'pisa', "PISA.SerieA"),
+    ]
+    for pattern, tvg_id in team_patterns:
+        if re.search(pattern, lower):
+            return tvg_id
+
+    # 4. Pattern per tipologie di sport
+    sport_type_patterns = [
+        (r'moto(?:\s*gp)?|sbk|motocross', "ACISportTv.it"),
+        (r'formula\s*1|f1|gp\s*formula', "ACISportTv.it"),
+        (r'bike|ciclismo|giro\s*d.italia', "BIKE.it"),
+        (r'tennis|atp|wta', "SuperTennis.it"),
+        (r'ippica|horse|galoppo', "HorseTV.it"),
+        (r'pesca|fishing', "ItalianFishingTV.it"),
+        (r'caccia|hunting', "CACCIAePesca.it"),
+        (r'nba|basket', ""),  # Nessun canale NBA in EPG italiana
+        (r'eurosport', "Eurosport.it"),
+    ]
+    for pattern, tvg_id in sport_type_patterns:
+        if re.search(pattern, lower):
+            return tvg_id
+
+    return ""
+
 
 EPG_SOURCE_URL = "https://iptv-epg.org/files/epg-it.xml.gz"
 EPG_PUBLIC_URL = "https://raw.githubusercontent.com/lucas1991-ste/Empidi/refs/heads/main/output/epg.xml"
@@ -651,9 +845,12 @@ def fetch_all_channels():
                 result["name"] = name
                 result["group"] = auto_group
                 result["logo"] = auto_logo
-                result["tvg_id"] = ""
+                # Prova a dedurre il tvg-id dal titolo
+                tvg_id = guess_dazn_tvg_id(ch["title"])
+                result["tvg_id"] = tvg_id
+                epg_info = f" (EPG: {tvg_id})" if tvg_id else " (no EPG)"
                 dazn_resolved.append(result)
-                print(f"  OK DAZN: {name}")
+                print(f"  OK DAZN: {name}{epg_info}")
 
             elif stream_type == "sport":
                 if INCLUDE_SPORT_EXTRA:
@@ -663,9 +860,18 @@ def fetch_all_channels():
                     result["name"] = name
                     result["group"] = auto_group
                     result["logo"] = auto_logo
-                    result["tvg_id"] = ""
+                    # Prova a dedurre il tvg-id dal titolo
+                    tvg_id = guess_sport_tvg_id(ch["title"])
+                    result["tvg_id"] = tvg_id
+                    # Se il logo non è stato impostato da classify_manifest, prova SPORT_LOGO_MAP
+                    if not result["logo"]:
+                        for logo_key, logo_url in SPORT_LOGO_MAP.items():
+                            if logo_key in ch_id and logo_url:
+                                result["logo"] = logo_url
+                                break
+                    epg_info = f" (EPG: {tvg_id})" if tvg_id else " (no EPG)"
                     sport_resolved.append(result)
-                    print(f"  OK Sport: {name}")
+                    print(f"  OK Sport: {name}{epg_info}")
                 else:
                     dazn_skipped += 1
 
