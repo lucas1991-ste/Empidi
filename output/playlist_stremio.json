@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T09:03:45.715713+00:00",
+  "updated": "2026-05-17T11:04:16.720816+00:00",
   "source": "iptv-playlist",
   "channel_count": 47,
   "channels": {
@@ -14,7 +14,7 @@
     },
     "cartoonnetwork": {
       "name": "Cartoon Network",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778974741_f~0_g~1_s~1b4ae0ec-302c-486f-89b8-f4cdbfc5d25a_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~60_x~aa6fb9ba1b18519e424fd20efc0c065d/nowitlin2/Content/CMAF_CTR_H1/Live/channel(cartoonnetwork)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778974741_s~1b4ae0ec-302c-486f-89b8-f4cdbfc5d25a_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~60_x~0109a99da5017fa0954bb5e7f3c9e483a452993f945165bc86aca78f6963e98a/nowitlin2/Content/CMAF_CTR_H1/Live/channel(cartoonnetwork)/master_2hr-all.mpd",
       "kid": "11189c4f64af73ffdc1a8c6bbb6e2f8a",
       "key": "eb3517c592b7774693a2b30e4b39e461",
       "group": "Sky Kids",
@@ -68,7 +68,7 @@
     },
     "skyadventure": {
       "name": "Sky Adventure",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778977135_f~0_g~1_s~5810c896-3c5f-4fe7-9590-bbf8d143e5e8_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~58_x~1f1ae7b9c7423cc033a0d2c8a10e8d14/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skyadventure)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778977135_s~5810c896-3c5f-4fe7-9590-bbf8d143e5e8_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~58_x~812aea8691f10511f8410ae92f52d84e06fc1fc4646b37807cf9d4ec5c3a8d98/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skyadventure)/master_2hr-all.mpd",
       "kid": "1118064bcea5a4106fb2267f279f2649",
       "key": "279a852121432f14ea2e7c5d15401238",
       "group": "Sky Intrattenimento",
@@ -86,7 +86,7 @@
     },
     "skyatlantic": {
       "name": "Sky Atlantic",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778942109_f~0_g~1_s~0baa2d55-f741-4aca-9fb0-df0fbbc466da_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~57_x~e227d4cbc4b4b3c24f1e2f76ba1ad7b9/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skyatlantic)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778942109_s~0baa2d55-f741-4aca-9fb0-df0fbbc466da_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~57_x~1de8adbce80115662720b9212518581fc7587145ad702e31106daed8a72a8ba5/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skyatlantic)/master_2hr-all.mpd",
       "kid": "1118914ad5e1ad67545475ca7460da2d",
       "key": "4ded218f45e7a9d9536f84fd940da992",
       "group": "Sky Intrattenimento",
@@ -95,7 +95,7 @@
     },
     "skycinemaaction": {
       "name": "Sky Cinema Action",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778972524_f~0_g~1_s~c6b76bc3-6455-4ce6-91b9-474aa4b0c601_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~61_x~48a41807412ab6d28000b90652354a5d/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skycinemaaction)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778972524_s~c6b76bc3-6455-4ce6-91b9-474aa4b0c601_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~61_x~7692876b19a09e1d665a5b34a389ef4c55ddb0148cc0e661d27e2d05d50ddb59/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skycinemaaction)/master_2hr-all.mpd",
       "kid": "11181097e8f05137f602bc551a2e32dd",
       "key": "8956d92daf04eba02dd3fd224dc99f6b",
       "group": "Sky Cinema",
@@ -122,7 +122,7 @@
     },
     "skycinemafamily": {
       "name": "Sky Cinema Family",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1779022894_f~0_g~1_s~8e5e9b8a-60f6-4e06-9b94-003bd83fe3a6_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~61_x~f762546c1ad31e377e0206dd71c1b8d5/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skycinemafamily)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1779025069_f~0_g~1_s~0f8e6196-cf10-4608-b2e6-edbf251b6cfc_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~61_x~617756a8b8cb5af5715bb2863fd1d6ab/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skycinemafamily)/master_2hr-all.mpd",
       "kid": "111887fc73ab50630ac4fc9c0ad8fa27",
       "key": "2ca2feaf3771e485ceb4a10aded58542",
       "group": "Sky Cinema",
@@ -176,7 +176,7 @@
     },
     "skycrime": {
       "name": "Sky Crime",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778975992_f~0_g~1_s~dd688f2b-43de-4fcb-aa64-2bb50f243abb_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~54_x~634926428c8322fca9330fb8651d03d3/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skycrime)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778975992_s~dd688f2b-43de-4fcb-aa64-2bb50f243abb_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~54_x~7022e31b4b891b6293a9f0d35410516c156964f91d316095dfa217abfdf58d13/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skycrime)/master_2hr-all.mpd",
       "kid": "11186bcffdc1c47dbeaaa7d557002197",
       "key": "c84de6e52919f9c47726e75e5788f6b9",
       "group": "Sky Intrattenimento",
@@ -203,7 +203,7 @@
     },
     "skynature": {
       "name": "Sky Nature",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778973192_f~0_g~1_s~5de40835-7ca0-458d-a39d-78c8223d9ca9_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~55_x~79ba02f5f61b219af9a096e07fa3b24e/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skynature)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778973192_s~5de40835-7ca0-458d-a39d-78c8223d9ca9_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~55_x~fefbe6f4593c37ba33e40e6fd35e0e2cf5604221de096d9e8edab2dce0dedc94/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skynature)/master_2hr-all.mpd",
       "kid": "11188a583a6e01a1566d46ec707f5134",
       "key": "9b920f9b587e72c1edc914bff684c431",
       "group": "Sky Documentari",
@@ -275,7 +275,7 @@
     },
     "skysport256": {
       "name": "Sky Sport 256",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778989611_f~0_g~1_s~aaafba18-01c9-41f7-9240-1f2074ca8666_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~57_x~ac09f95d44d7e9a037f690d166d0c44f/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skysport256)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778989611_s~aaafba18-01c9-41f7-9240-1f2074ca8666_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~57_x~6db3657f06f835564a6e3eab6cd72697980d80edfced7faed93b8bf860398350/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skysport256)/master_2hr-all.mpd",
       "kid": "11186c42fd511dc12c3da4122b453f6b",
       "key": "d56ad21c13dc64fdb2430fe49469bd25",
       "group": "Sky Sport Calcio",
@@ -338,7 +338,7 @@
     },
     "skysportf1": {
       "name": "Sky Sport F1",
-      "manifest": "https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1778963331_f~0_g~1_s~49c138ff-3d7c-4db7-a17f-e14c4d54b59f_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_k~A_l~56_x~9bb16c1db63d2056f9eb94d7ce4a8b75/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-all.mpd",
+      "manifest": "https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1778963331_s~49c138ff-3d7c-4db7-a17f-e14c4d54b59f_u~b9fbcd3e402648cf113f98fc35a72a86d7f3acca5f930c66536fcb2ff90ec301821ad542153467fff4602ae5e1340be4_l~56_x~19bd67b053489062cbcbe460f9465362aff84209d3aa0d8cd7e5e07e2bb22260/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-all.mpd",
       "kid": "1118e78b7e486c21dc59fd57420c14ea",
       "key": "ec5151d5f9ab4afc6a28a70ff5b934e7",
       "group": "Sky Sport",
