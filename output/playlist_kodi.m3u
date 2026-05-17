@@ -418,13 +418,13 @@ https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-04-prd-l-v2/dash-ch-04-pr
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=4e22677e8aec3c93b92e9d45d2bca6de:764ce6e01d256388999b2f935b9c08a1
 https://live-d-01-lba-ew.akamaized.net/out/v1/l-prd/ch-05-prd-l-v2/dash-ch-05-prd-l-hd/index.mpd
-#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 1
+#EXTINF:-1 tvg-id="SuperTennis.it" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png" group-title="Sport Extra (SuperTennis)",SuperTennis 1
 https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd
-#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 2
+#EXTINF:-1 tvg-id="SuperTennis.it" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png" group-title="Sport Extra (SuperTennis)",SuperTennis 2
 https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd
-#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 3
+#EXTINF:-1 tvg-id="SuperTennis.it" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png" group-title="Sport Extra (SuperTennis)",SuperTennis 3
 https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd
-#EXTINF:-1 group-title="Sport Extra (SuperTennis)",SuperTennis 4
+#EXTINF:-1 tvg-id="SuperTennis.it" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png" group-title="Sport Extra (SuperTennis)",SuperTennis 4
 https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd
 #EXTINF:-1 group-title="Sport Extra (BeIN/OTT)",NBA TV
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T22:39:34.833747+00:00",
+  "updated": "2026-05-17T22:55:30.473469+00:00",
   "source": "iptv-playlist",
   "channel_count": 99,
   "channels": {
@@ -1054,8 +1054,8 @@
       "kid": "",
       "key": "",
       "group": "Sport Extra (SuperTennis)",
-      "logo": "",
-      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
+      "tvg_id": "SuperTennis.it",
       "stream_type": "sport"
     },
     "sport_supertennis_2": {
@@ -1064,8 +1064,8 @@
       "kid": "",
       "key": "",
       "group": "Sport Extra (SuperTennis)",
-      "logo": "",
-      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
+      "tvg_id": "SuperTennis.it",
       "stream_type": "sport"
     },
     "sport_supertennis_3": {
@@ -1074,8 +1074,8 @@
       "kid": "",
       "key": "",
       "group": "Sport Extra (SuperTennis)",
-      "logo": "",
-      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
+      "tvg_id": "SuperTennis.it",
       "stream_type": "sport"
     },
     "sport_supertennis_4": {
@@ -1084,8 +1084,8 @@
       "kid": "",
       "key": "",
       "group": "Sport Extra (SuperTennis)",
-      "logo": "",
-      "tvg_id": "",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
+      "tvg_id": "SuperTennis.it",
       "stream_type": "sport"
     },
     "sport_nba_tv": {

@@ -1,10 +1,10 @@
 {
-  "last_update": "2026-05-17T22:39:34.834870+00:00",
+  "last_update": "2026-05-17T22:55:30.474734+00:00",
   "total_channels": 99,
   "sky_channels": 47,
   "dazn_channels": 26,
   "sport_channels": 26,
-  "epg_programs": 7789,
+  "epg_programs": 7862,
   "channels": [
     {
       "id": "boomerang",
@@ -746,32 +746,32 @@
       "id": "sport_supertennis_1",
       "name": "SuperTennis 1",
       "group": "Sport Extra (SuperTennis)",
-      "tvg_id": "",
-      "logo": "",
+      "tvg_id": "SuperTennis.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
       "stream_type": "sport"
     },
     {
       "id": "sport_supertennis_2",
       "name": "SuperTennis 2",
       "group": "Sport Extra (SuperTennis)",
-      "tvg_id": "",
-      "logo": "",
+      "tvg_id": "SuperTennis.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
       "stream_type": "sport"
     },
     {
       "id": "sport_supertennis_3",
       "name": "SuperTennis 3",
       "group": "Sport Extra (SuperTennis)",
-      "tvg_id": "",
-      "logo": "",
+      "tvg_id": "SuperTennis.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
       "stream_type": "sport"
     },
     {
       "id": "sport_supertennis_4",
       "name": "SuperTennis 4",
       "group": "Sport Extra (SuperTennis)",
-      "tvg_id": "",
-      "logo": "",
+      "tvg_id": "SuperTennis.it",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/italy/super-tennis-it.png",
       "stream_type": "sport"
     },
     {
